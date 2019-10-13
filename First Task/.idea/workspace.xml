@@ -1,0 +1,987 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5cf51283-ed2d-4a1f-bc77-27c62b268b36" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/ConeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/FReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/Cone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1343">
+              <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/ConeEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/ConeFactoryTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="425">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/ConeRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#470#471#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/ConesObserver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/Calculator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/by/epam/data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="9" selection-start-column="9" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="TestNG Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getPoint().getY()</find>
+      <find>getX</find>
+      <find>getY</find>
+      <find>\\s</find>
+      <find>cones</find>
+      <find>list</find>
+      <find>repository</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>getHigh()</replace>
+      <replace>getRadius()</replace>
+      <replace>getY</replace>
+      <replace>getZ</replace>
+      <replace>cones</replace>
+      <replace>list</replace>
+      <replace>final`list</replace>
+      <replace>finalList</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/app/action/ComparatorsTest.java" />
+        <option value="$PROJECT_DIR$/src/app/entity/ConesObserver.java" />
+        <option value="$PROJECT_DIR$/tests/app/action/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/src/app/interfaces/IRepository.java" />
+        <option value="$PROJECT_DIR$/tests/app/entity/ConeRepositoryTest.java" />
+        <option value="$PROJECT_DIR$/src/app/entity/ConeRepository.java" />
+        <option value="$PROJECT_DIR$/src/app/action/comparators/ConeXComparator.java" />
+        <option value="$PROJECT_DIR$/src/app/action/comparators/ConeYComparator.java" />
+        <option value="$PROJECT_DIR$/src/app/action/comparators/ConeZComparator.java" />
+        <option value="$PROJECT_DIR$/src/app/action/comparators/ConeRadiusComparator.java" />
+        <option value="$PROJECT_DIR$/src/app/action/comparators/ConeHighComparator.java" />
+        <option value="$PROJECT_DIR$/src/app/specifications/ConeRadiusSpecification.java" />
+        <option value="$PROJECT_DIR$/src/app/specifications/ConeHighSpecification.java" />
+        <option value="$PROJECT_DIR$/src/app/action/Calculator.java" />
+        <option value="$PROJECT_DIR$/tests/app/action/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/app/specifications/ConeAreaSpecification.java" />
+        <option value="$PROJECT_DIR$/src/app/specifications/ConeVolumeSpecification.java" />
+        <option value="$PROJECT_DIR$/src/app/exceptions/FileNotExistException.java" />
+        <option value="$PROJECT_DIR$/src/app/action/FReader.java" />
+        <option value="$PROJECT_DIR$/src/app/validations/DataValidator.java" />
+        <option value="$PROJECT_DIR$/src/app/entity/ConeWarehouse.java" />
+        <option value="$PROJECT_DIR$/src/app/entity/Point.java" />
+        <option value="$PROJECT_DIR$/src/app/entity/Cone.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/exceptions/FileIsEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/entity/ConesObserver.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeHighComparator.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeYComparator.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeHighComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeRadiusComparator.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeRadiusComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeXComparator.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeXComparatorTest.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeYComparatorTest.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeZComparatorTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/entity/ConeEvent.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/entity/ConeRepository.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/action/ConeFactory.java" />
+        <option value="$PROJECT_DIR$/src/log4j2.xml" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/action/FReader.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/validations/DataValidator.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/entity/ConesObserverTest.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/action/ObserverTest.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/entity/Cone.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/entity/ConeTest.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/entity/ConeWarehouseTest.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/specifications/ConeAreaSpecificationTest.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/specifications/ConeSpecificationsTest.java" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/validations/DataValidatorTest.java" />
+        <option value="$PROJECT_DIR$/logs/logs.log" />
+        <option value="$PROJECT_DIR$/tests/by/epam/app/action/ConeFactoryTests.java" />
+        <option value="$PROJECT_DIR$/src/by/epam/app/action/Calculator.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="86" />
+    <option name="y" value="120" />
+    <option name="width" value="1383" />
+    <option name="height" value="746" />
+  </component>
+  <component name="ProjectId" id="1QgZCHLzQEgfDIFUeLu0Cyk4c6G" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="comparators" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="specifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="validations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="specifications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="First Task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="First Task" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="validations" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568905357933" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="by.epam.app.validations" />
+      <recent name="by.epam.app.specifications" />
+      <recent name="by.epam.app.entity" />
+      <recent name="by.epam.app.action" />
+      <recent name="by.epam.app.action.comparators" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\First Task\src\by\epam" />
+      <recent name="F:\First Task\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="TestNG.ConeFactoryTests">
+    <configuration name="ConeFactoryTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="First Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.app.action.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.app.action" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.app.action.ConeFactoryTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConeSpecificationsTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="First Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.app.specifications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.app.specifications" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.app.specifications.ConeSpecificationsTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConeSpecificationsTest.testAreaSpecification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="First Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.app.specifications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.app.specifications" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.app.specifications.ConeSpecificationsTest" />
+      <option name="METHOD_NAME" value="testAreaSpecification" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConeSpecificationsTest.testCenterRadiusSpecification" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="First Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.app.specifications.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.app.specifications" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.app.specifications.ConeSpecificationsTest" />
+      <option name="METHOD_NAME" value="testCenterRadiusSpecification" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataValidatorTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="First Task" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.epam.app.validations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="by.epam.app.validations" />
+      <option name="MAIN_CLASS_NAME" value="by.epam.app.validations.DataValidatorTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.ConeSpecificationsTest.testAreaSpecification" />
+      <item itemvalue="TestNG.ConeSpecificationsTest.testCenterRadiusSpecification" />
+      <item itemvalue="TestNG.ConeSpecificationsTest" />
+      <item itemvalue="TestNG.DataValidatorTest" />
+      <item itemvalue="TestNG.ConeFactoryTests" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ConeFactoryTests" />
+        <item itemvalue="TestNG.DataValidatorTest" />
+        <item itemvalue="TestNG.ConeSpecificationsTest" />
+        <item itemvalue="TestNG.ConeSpecificationsTest.testCenterRadiusSpecification" />
+        <item itemvalue="TestNG.ConeSpecificationsTest.testAreaSpecification" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5cf51283-ed2d-4a1f-bc77-27c62b268b36" name="Default Changelist" comment="" />
+      <created>1568186568064</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1568186568064</updated>
+      <workItem from="1568186569335" duration="610000" />
+      <workItem from="1568194096649" duration="6803000" />
+      <workItem from="1568204726248" duration="4804000" />
+      <workItem from="1568210991945" duration="1162000" />
+      <workItem from="1568233864274" duration="1457000" />
+      <workItem from="1568268549983" duration="3854000" />
+      <workItem from="1568481629617" duration="1699000" />
+      <workItem from="1568493199348" duration="254000" />
+      <workItem from="1568503181380" duration="6713000" />
+      <workItem from="1568621292658" duration="2483000" />
+      <workItem from="1568637006097" duration="4801000" />
+      <workItem from="1568643320535" duration="2097000" />
+      <workItem from="1568654248637" duration="1957000" />
+      <workItem from="1568700392251" duration="4573000" />
+      <workItem from="1568816582082" duration="3294000" />
+      <workItem from="1568833279038" duration="307000" />
+      <workItem from="1568874536675" duration="8706000" />
+      <workItem from="1568901752949" duration="3611000" />
+      <workItem from="1568979927308" duration="499000" />
+      <workItem from="1569003431032" duration="7415000" />
+      <workItem from="1569050905769" duration="6710000" />
+      <workItem from="1569102355833" duration="998000" />
+      <workItem from="1569309330531" duration="1357000" />
+      <workItem from="1569478349235" duration="717000" />
+      <workItem from="1569927560445" duration="641000" />
+      <workItem from="1569928835907" duration="53000" />
+      <workItem from="1570099165048" duration="126000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConeSpecificationsTest_testAreaSpecification - 2019.09.21 at 11h 29m 09s.xml">
+      <configuration name="ConeSpecificationsTest.testAreaSpecification" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeSpecificationsTest_testAreaSpecification - 2019.09.21 at 11h 29m 19s.xml">
+      <configuration name="ConeSpecificationsTest.testAreaSpecification" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeSpecificationsTest_testAreaSpecification - 2019.09.21 at 11h 30m 07s.xml">
+      <configuration name="ConeSpecificationsTest.testAreaSpecification" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeSpecificationsTest_testCenterRadiusSpecification - 2019.09.21 at 11h 52m 17s.xml">
+      <configuration name="ConeSpecificationsTest.testCenterRadiusSpecification" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeSpecificationsTest_testCenterRadiusSpecification - 2019.09.21 at 11h 53m 18s.xml">
+      <configuration name="ConeSpecificationsTest.testCenterRadiusSpecification" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeSpecificationsTest_testCenterRadiusSpecification - 2019.09.21 at 11h 53m 22s.xml">
+      <configuration name="ConeSpecificationsTest.testCenterRadiusSpecification" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeSpecificationsTest - 2019.09.21 at 11h 53m 34s.xml">
+      <configuration name="ConeSpecificationsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="DataValidatorTest - 2019.09.21 at 11h 59m 24s.xml">
+      <configuration name="DataValidatorTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeFactoryTests - 2019.09.21 at 12h 18m 02s.xml">
+      <configuration name="ConeFactoryTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ConeFactoryTests - 2019.09.21 at 12h 19m 15s.xml">
+      <configuration name="ConeFactoryTests" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="40964000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29051173" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32827735" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/specifications/ConeRadiusSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/specifications/ConeHighSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/specifications/ConeVolumeSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="69" selection-start-line="19" selection-start-column="69" selection-end-line="19" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/exceptions/WrongDataException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeRadiusComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeHighComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="30" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeXComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeRadiusComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeXComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="30" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeYComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeYComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/comparators/ConeZComparatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/FReaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/ComparatorsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="35" column="55" selection-start-line="35" selection-start-column="55" selection-end-line="35" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/EpamWeb/src/main/java/entity/GeometricEntity.java" />
+    <entry file="file://$USER_HOME$/Downloads/EpamWeb/src/main/java/entity/Elipse.java" />
+    <entry file="file://$USER_HOME$/Downloads/EpamWeb/src/main/java/action/ElipsePerformance.java" />
+    <entry file="file://$USER_HOME$/Downloads/EpamWeb/src/main/java/factory/GenericEllipseFactory.java" />
+    <entry file="file://$USER_HOME$/Downloads/EpamWeb/src/main/java/factory/GenericFactory.java" />
+    <entry file="file://$USER_HOME$/Downloads/EpamWeb/src/main/java/reader/Reader.java" />
+    <entry file="file://$USER_HOME$/Downloads/EpamWeb/src/main/java/util/RegularExpression.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeZComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/comparators/ConeHighComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="28" lean-forward="true" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/info.log" />
+    <entry file="file://$PROJECT_DIR$/src/log4j2.xml" />
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/CalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/entity/ConesObserverTest.java" />
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/ObserverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/entity/ConeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="76" column="5" selection-start-line="76" selection-start-column="5" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/exceptions/FileIsEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#216#217#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/entity/ConeWarehouseTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/ConeWarehouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="722">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="e#1436#1437#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/exceptions/FileNotExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/specifications/ConeAreaSpecificationTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/specifications/ConeAreaSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/specifications/ConeSpecificationsTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/validations/DataValidator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/logs.log" />
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/validations/DataValidatorTest.java" />
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/entity/PointTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/specifications/OctantSpecification.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/ConeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/FReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/Cone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1343">
+          <caret line="91" column="23" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/ConeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/by/epam/app/action/ConeFactoryTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/ConeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#470#471#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/entity/ConesObserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/by/epam/app/action/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="35" column="24" lean-forward="true" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.12.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>First Task</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>log4j-2.12.1</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
