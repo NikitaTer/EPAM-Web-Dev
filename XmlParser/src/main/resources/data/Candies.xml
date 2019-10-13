@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Candies xmlns="http://www.example.by/candies">
+    <candy date="2019-10-10" expiry="90" id="dsaw">
+        <name>Example</name>
+        <energy>150</energy>
+        <type>caramel</type>
+        <ingredients>
+            <water>150</water>
+            <sugar>150</sugar>
+            <fructose>150</fructose>
+            <vanillin>150</vanillin>
+        </ingredients>
+        <value>
+            <proteins>150</proteins>
+            <fats>150</fats>
+            <carbo>150</carbo>
+        </value>
+        <production>Roshen</production>
+    </candy>
+<candy date="2018-10-10" expiry="30" id="wasd">
+    <name>Cracker</name>
+    <energy>400</energy>
+    <type>chocolate-with</type>
+    <ingredients type-of-chocolate="Rocco">
+        <water>445</water>
+        <sugar>333</sugar>
+        <fructose>877</fructose>
+        <vanillin>30</vanillin>
+    </ingredients>
+    <value>
+        <proteins>455</proteins>
+        <fats>444</fats>
+        <carbo>332</carbo>
+    </value>
+    <production>Pirates</production>
+</candy>
+    <candy date="2018-06-21" expiry="70" id="bggg">
+        <name>NikiTers</name>
+        <energy>666</energy>
+        <type>chocolate-with</type>
+        <ingredients type-of-chocolate="Sweat-P">
+            <water>124</water>
+            <sugar>114</sugar>
+            <fructose>411</fructose>
+            <vanillin>20</vanillin>
+        </ingredients>
+        <value>
+            <proteins>333</proteins>
+            <fats>444</fats>
+            <carbo>555</carbo>
+        </value>
+        <production>Tsiareshchnka Inc.</production>
+    </candy>
+    <candy date="1999-07-21" expiry="365" id="yyy">
+        <name>Virgil</name>
+        <energy>544</energy>
+        <type>caramel</type>
+        <ingredients>
+            <water>555</water>
+            <sugar>555</sugar>
+            <fructose>555</fructose>
+            <vanillin>555</vanillin>
+        </ingredients>
+        <value>
+            <proteins>123</proteins>
+            <fats>321</fats>
+            <carbo>222</carbo>
+        </value>
+        <production>Jmih</production>
+    </candy>
+    <candy date="1998-11-12" expiry="30" id="fff">
+        <name>Goh</name>
+        <energy>444</energy>
+        <type>iris</type>
+        <ingredients>
+            <water>333</water>
+            <sugar>333</sugar>
+            <fructose>333</fructose>
+            <vanillin>333</vanillin>
+        </ingredients>
+        <value>
+            <proteins>123</proteins>
+            <fats>123</fats>
+            <carbo>123</carbo>
+        </value>
+        <production>GoGoGoh</production>
+    </candy>
+</Candies>

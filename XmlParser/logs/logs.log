@@ -1,0 +1,1251 @@
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Getting DocumentBuilderFactory singleton instance.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating new XML file DOM parser.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Finding root element on XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxBuilder - SAXBuilder creation.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxBuilder - Building candies by SAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Document ID :file:///F:/XmlParser/src/main/resources/data/Candies.xml
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Document parse started.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Document namespace scope started.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current simple element value was not found.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Document namespace scope ended.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxHandler - Document parse ended.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.SaxBuilder - Successfully parsed XML file.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building candies with StAX parsers builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:32:29 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:34:12 [main] INFO  by.epam.action.builder.DomBuilder - Getting DocumentBuilderFactory singleton instance.
+2019-10-13 12:34:12 [main] INFO  by.epam.action.builder.DomBuilder - Creating new XML file DOM parser.
+2019-10-13 12:34:12 [main] INFO  by.epam.action.builder.DomBuilder - Finding root element on XML file.
+2019-10-13 12:34:12 [main] ERROR by.epam.action.builder.DomBuilder - Can't build candies
+2019-10-13 12:34:12 [main] INFO  by.epam.action.builder.SaxBuilder - SAXBuilder creation.
+2019-10-13 12:34:12 [main] INFO  by.epam.action.builder.SaxBuilder - Building candies by SAX parser builder.
+2019-10-13 12:34:12 [main] ERROR by.epam.action.builder.SaxBuilder - Parser error : java.io.FileNotFoundException: F:\XmlParser\data\Candies.xml (Системе не удается найти указанный путь)
+2019-10-13 12:34:12 [main] INFO  by.epam.action.builder.SaxBuilder - Successfully parsed XML file.
+2019-10-13 12:34:12 [main] INFO  by.epam.action.builder.StAxBuilder - Building candies with StAX parsers builder.
+2019-10-13 12:34:12 [main] ERROR by.epam.action.builder.StAxBuilder - data\Candies.xml (Системе не удается найти указанный путь)
+2019-10-13 12:34:24 [main] INFO  by.epam.action.builder.DomBuilder - Getting DocumentBuilderFactory singleton instance.
+2019-10-13 12:34:24 [main] INFO  by.epam.action.builder.DomBuilder - Creating new XML file DOM parser.
+2019-10-13 12:34:24 [main] INFO  by.epam.action.builder.DomBuilder - Finding root element on XML file.
+2019-10-13 12:34:24 [main] ERROR by.epam.action.builder.DomBuilder - Can't build candies
+2019-10-13 12:34:24 [main] INFO  by.epam.action.builder.SaxBuilder - SAXBuilder creation.
+2019-10-13 12:34:24 [main] INFO  by.epam.action.builder.SaxBuilder - Building candies by SAX parser builder.
+2019-10-13 12:34:24 [main] ERROR by.epam.action.builder.SaxBuilder - Parser error : java.io.FileNotFoundException: data\Candies.xml (Системе не удается найти указанный путь)
+2019-10-13 12:34:24 [main] INFO  by.epam.action.builder.SaxBuilder - Successfully parsed XML file.
+2019-10-13 12:34:24 [main] INFO  by.epam.action.builder.StAxBuilder - Building candies with StAX parsers builder.
+2019-10-13 12:34:24 [main] ERROR by.epam.action.builder.StAxBuilder - file:data\Candies.xml (Синтаксическая ошибка в имени файла, имени папки или метке тома)
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Getting DocumentBuilderFactory singleton instance.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating new XML file DOM parser.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Finding root element on XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxBuilder - SAXBuilder creation.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxBuilder - Building candies by SAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Document ID :file:///F:/XmlParser/src/main/resources/data/Candies.xml
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Document parse started.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Document namespace scope started.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current simple element value was not found.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Document namespace scope ended.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxHandler - Document parse ended.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.SaxBuilder - Successfully parsed XML file.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building candies with StAX parsers builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:15 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:28 [main] INFO  by.epam.action.builder.DomBuilder - Getting DocumentBuilderFactory singleton instance.
+2019-10-13 12:37:28 [main] INFO  by.epam.action.builder.DomBuilder - Creating new XML file DOM parser.
+2019-10-13 12:37:28 [main] INFO  by.epam.action.builder.DomBuilder - Finding root element on XML file.
+2019-10-13 12:37:28 [main] ERROR by.epam.action.builder.DomBuilder - Can't build candies
+2019-10-13 12:37:28 [main] INFO  by.epam.action.builder.SaxBuilder - SAXBuilder creation.
+2019-10-13 12:37:28 [main] INFO  by.epam.action.builder.SaxBuilder - Building candies by SAX parser builder.
+2019-10-13 12:37:28 [main] ERROR by.epam.action.builder.SaxBuilder - Parser error : java.io.FileNotFoundException: F:\XmlParser\main\resources\data\Candies.xml (Системе не удается найти указанный путь)
+2019-10-13 12:37:28 [main] INFO  by.epam.action.builder.SaxBuilder - Successfully parsed XML file.
+2019-10-13 12:37:28 [main] INFO  by.epam.action.builder.StAxBuilder - Building candies with StAX parsers builder.
+2019-10-13 12:37:28 [main] ERROR by.epam.action.builder.StAxBuilder - main\resources\data\Candies.xml (Системе не удается найти указанный путь)
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Getting DocumentBuilderFactory singleton instance.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating new XML file DOM parser.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Finding root element on XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating candy with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating ingredients with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Creating value with DOM.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.DomBuilder - Adding candy to candies.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxBuilder - SAXBuilder creation.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxBuilder - Building candies by SAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Document ID :file:///F:/XmlParser/src/main/resources/data/Candies.xml
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Document parse started.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Document namespace scope started.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current simple element value was not found.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is candy object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is ingredients object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is value object.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding starting elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Current start element is simple type.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Getting value of earlier found simple element and setting in field.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Finding ending elements in XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Document namespace scope ended.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxHandler - Document parse ended.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.SaxBuilder - Successfully parsed XML file.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building candies with StAX parsers builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new candy with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new ingredients with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Building new value with StAX parser builder.
+2019-10-13 12:37:58 [main] INFO  by.epam.action.builder.StAxBuilder - Finishing of candy building.

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://www.example.by/candies"
+           xmlns:tns="http://www.example.by/candies"
+           elementFormDefault="qualified">
+    <xs:element name="Candies">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="candy" type="tns:candy" minOccurs="1" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:complexType name="candy">
+            <xs:sequence>
+                <xs:element name="name" type="xs:string"/>
+                <xs:element name="energy" type="xs:decimal"/>
+                <xs:element name="type" type="tns:type"/>
+                <xs:element name="ingredients" type="tns:ingredients"/>
+                <xs:element name="value" type="tns:value"/>
+                <xs:element name="production" type="xs:string"/>
+            </xs:sequence>
+        <xs:attribute name="date" use="required">
+            <xs:simpleType>
+                <xs:restriction base="xs:date">
+                    <xs:minInclusive value="1810-09-24"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:attribute>
+        <xs:attribute name="expiry" type="xs:decimal" use="required" default="30"/>
+        <xs:attribute name="id" type="xs:ID" use="required"/>
+    </xs:complexType>
+
+    <xs:simpleType name="type">
+            <xs:restriction base="xs:string">
+                <xs:enumeration value="iris"/>
+                <xs:enumeration value="caramel"/>
+                <xs:enumeration value="chocolate-without"/>
+                <xs:enumeration value="chocolate-with"/>
+            </xs:restriction>
+    </xs:simpleType>
+
+    <xs:complexType name="ingredients">
+        <xs:sequence>
+            <xs:element name="water" type="xs:decimal"/>
+            <xs:element name="sugar" type="xs:decimal"/>
+            <xs:element name="fructose" type="xs:decimal"/>
+            <xs:element name="vanillin" type="xs:decimal"/>
+        </xs:sequence>
+        <xs:attribute name="type-of-chocolate" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="value">
+        <xs:sequence>
+            <xs:element name="proteins" type="xs:decimal"/>
+            <xs:element name="fats" type="xs:decimal"/>
+            <xs:element name="carbo" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
