@@ -1,6 +1,8 @@
 package by.epam.action;
 
 import by.epam.entity.Van;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.PriorityQueue;
 import java.util.concurrent.Semaphore;
@@ -8,6 +10,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 public class PrioritySemaphore {
+
+    private final static Logger logger = LogManager.getLogger();
 
     private Semaphore semaphore;
     private PriorityQueue<Van> queue;
@@ -25,12 +29,14 @@ public class PrioritySemaphore {
         lock.unlock();
 
         try {
+            logger.info(van.getGoodsName() + " is waiting");
             while (true) {
                 lock.lock();
                 if (van.equals(queue.peek()) && !semaphore.hasQueuedThreads()) {
                     queue.remove();
                     semaphore.acquire();
                     lock.unlock();
+                    logger.info(van.getGoodsName() + " is stop waiting");
                     break;
                 }
                 lock.unlock();

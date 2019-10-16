@@ -1,6 +1,8 @@
 package by.epam.entity;
 
 import by.epam.action.PrioritySemaphore;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
@@ -9,6 +11,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class LogisticBase {
     private static final LogisticBase instance = new LogisticBase();
+    private static final Logger logger = LogManager.getLogger();
 
     private static final int CAPACITY = 500;
     private static Queue<Goods> goods;
@@ -18,8 +21,8 @@ public class LogisticBase {
 
     private LogisticBase() {
         goods = new PriorityQueue<>();
-        semLoad = new PrioritySemaphore(1);
-        semUnload = new PrioritySemaphore(1);
+        semLoad = new PrioritySemaphore(2);
+        semUnload = new PrioritySemaphore(2);
         lock = new ReentrantLock(true);
     }
 
@@ -28,6 +31,8 @@ public class LogisticBase {
     }
 
     public void request(Van van) {
+        logger.info("Handling request from " + van.getGoodsName());
+
         if (van.toLoad()) {
             semLoad.acquire(van);
 
@@ -65,5 +70,7 @@ public class LogisticBase {
 
             semUnload.release();
         }
+
+        logger.info("Ending handling request from " + van.getGoodsName() + " (" + Thread.currentThread().getName() + ")");
     }
 }

@@ -1,10 +1,15 @@
 package by.epam.entity;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Objects;
 import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 
 public class Van implements Runnable, Comparable<Van> {
+
+    private static final Logger logger = LogManager.getLogger();
 
     private Goods goods;
     private boolean toLoad;
@@ -12,11 +17,11 @@ public class Van implements Runnable, Comparable<Van> {
 
     public Van(boolean toLoad) {
         this.toLoad = toLoad;
-        goods = null;
+        goods = new Goods("Nothing", 0, false);
         thread = new Thread(this);
     }
 
-    public Van(Goods goods, boolean toLoad) {
+    public Van( boolean toLoad, Goods goods) {
         this.toLoad = toLoad;
         this.goods = goods;
         thread = new Thread(this);
@@ -28,39 +33,43 @@ public class Van implements Runnable, Comparable<Van> {
     }
 
     public void start() {
+        logger.info("Starting thread");
         thread.start();
     }
 
     public void stop() {
         try {
+            logger.info("Stopping thread");
             thread.join();
         } catch (InterruptedException e) {
             e.printStackTrace();
+            logger.error(e.getMessage());
         }
     }
 
     public void load(Goods goods) {
+        logger.info("Loading " + goods.getName());
         try {
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
             e.printStackTrace();
+            logger.error(e.getMessage());
         }
 
         this.goods = goods;
     }
 
     public Goods unload() {
-        if (goods != null) {
-            System.out.println(goods.getName());
-        }
+        logger.info("Unloading " + goods.getName());
         try {
             TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
             e.printStackTrace();
+            logger.error(e.getMessage());
         }
 
         Goods temp = goods;
-        goods = null;
+        goods = new Goods("Nothing", 0, false);
         return temp;
     }
 
@@ -69,11 +78,7 @@ public class Van implements Runnable, Comparable<Van> {
     }
 
     public String getGoodsName() {
-        if (goods != null) {
-            return goods.getName();
-        } else {
-            return "Nothing";
-        }
+        return goods.getName();
     }
 
     public int getGoodsWeight() {
