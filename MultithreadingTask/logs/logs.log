@@ -1,270 +1,412 @@
-2019-10-17 00:06:10 [main] INFO  by.epam.action.VanParser - Parsed file
-2019-10-17 00:09:54 [main] INFO  by.epam.action.VanParser - Parsed file
-2019-10-17 00:11:37 [main] INFO  by.epam.action.VanParser - Parsed file
-2019-10-17 00:29:41 [main] INFO  by.epam.action.VanParser - Parsed file
-2019-10-17 00:29:41 [main] INFO  by.epam.entity.Van - Starting thread Thread-1
-2019-10-17 00:29:41 [main] INFO  by.epam.entity.Van - Starting thread Thread-2
-2019-10-17 00:29:41 [main] INFO  by.epam.entity.Van - Starting thread Thread-3
-2019-10-17 00:29:41 [main] INFO  by.epam.entity.Van - Starting thread Thread-4
-2019-10-17 00:29:41 [main] INFO  by.epam.entity.Van - Starting thread Thread-5
-2019-10-17 00:29:41 [main] INFO  by.epam.entity.Van - Starting thread Thread-6
-2019-10-17 00:29:41 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies (Thread-1)
-2019-10-17 00:29:41 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison (Thread-4)
-2019-10-17 00:29:41 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs (Thread-2)
-2019-10-17 00:29:41 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons (Thread-3)
-2019-10-17 00:29:42 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison (Thread-4) is waiting
-2019-10-17 00:29:42 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs (Thread-2) is waiting
-2019-10-17 00:29:42 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies (Thread-1) is waiting
-2019-10-17 00:29:41 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts (Thread-5)
-2019-10-17 00:29:42 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons (Thread-3) is waiting
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Starting thread Thread-7
-2019-10-17 00:29:42 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison (Thread-4) is stop waiting
-2019-10-17 00:29:42 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts (Thread-5) is waiting
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Starting thread Thread-8
-2019-10-17 00:29:42 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-6)
-2019-10-17 00:29:42 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts (Thread-5) is stop waiting
-2019-10-17 00:29:42 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-6) is waiting
-2019-10-17 00:29:42 [Thread-4] INFO  by.epam.entity.Van - Unloading Barrels of poison (Thread-4)
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Starting thread Thread-9
-2019-10-17 00:29:42 [Thread-5] INFO  by.epam.entity.Van - Unloading Artifacts (Thread-5)
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Starting thread Thread-10
-2019-10-17 00:29:42 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-6) is stop waiting
-2019-10-17 00:29:42 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-8)
-2019-10-17 00:29:42 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-7)
-2019-10-17 00:29:42 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-7) is waiting
-2019-10-17 00:29:42 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-7) is stop waiting
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Starting thread Thread-11
-2019-10-17 00:29:42 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-8) is waiting
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Starting thread Thread-12
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Starting thread Thread-13
-2019-10-17 00:29:42 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-9)
-2019-10-17 00:29:42 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver (Thread-11)
-2019-10-17 00:29:42 [main] INFO  by.epam.entity.Van - Stopping thread Thread-1
-2019-10-17 00:29:42 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold (Thread-10)
-2019-10-17 00:29:42 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper (Thread-12)
-2019-10-17 00:29:42 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron (Thread-13)
-2019-10-17 00:29:47 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs (Thread-2) is stop waiting
-2019-10-17 00:29:47 [Thread-6] INFO  by.epam.entity.Van - Loading Barrels of poison (Thread-6)
-2019-10-17 00:29:47 [Thread-7] INFO  by.epam.entity.Van - Loading Artifacts (Thread-7)
-2019-10-17 00:29:47 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies (Thread-1) is stop waiting
-2019-10-17 00:29:47 [Thread-2] INFO  by.epam.entity.Van - Unloading Bombs (Thread-2)
-2019-10-17 00:29:47 [Thread-1] INFO  by.epam.entity.Van - Unloading Candies (Thread-1)
-2019-10-17 00:29:50 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-9) is waiting
-2019-10-17 00:29:50 [Thread-7] INFO  by.epam.entity.LogisticBase - Ending handling request from Artifacts (Thread-7)
-2019-10-17 00:29:50 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-9) is stop waiting
-2019-10-17 00:29:50 [Thread-6] INFO  by.epam.entity.LogisticBase - Ending handling request from Barrels of poison (Thread-6)
-2019-10-17 00:29:50 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-8) is stop waiting
-2019-10-17 00:29:52 [Thread-8] INFO  by.epam.entity.Van - Loading Bombs (Thread-8)
-2019-10-17 00:29:52 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper (Thread-12) is waiting
-2019-10-17 00:29:52 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons (Thread-3) is stop waiting
-2019-10-17 00:29:52 [Thread-9] INFO  by.epam.entity.Van - Loading Candies (Thread-9)
-2019-10-17 00:29:52 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver (Thread-11) is waiting
-2019-10-17 00:29:52 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron (Thread-13) is waiting
-2019-10-17 00:29:52 [main] INFO  by.epam.entity.Van - Stopping thread Thread-2
-2019-10-17 00:29:52 [Thread-3] INFO  by.epam.entity.Van - Unloading Weapons (Thread-3)
-2019-10-17 00:29:52 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold (Thread-10) is waiting
-2019-10-17 00:29:52 [main] INFO  by.epam.entity.Van - Stopping thread Thread-3
-2019-10-17 00:29:52 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold (Thread-10) is stop waiting
-2019-10-17 00:29:52 [Thread-10] INFO  by.epam.entity.Van - Unloading Gold (Thread-10)
-2019-10-17 00:29:55 [Thread-9] INFO  by.epam.entity.LogisticBase - Ending handling request from Candies (Thread-9)
-2019-10-17 00:29:55 [Thread-8] INFO  by.epam.entity.LogisticBase - Ending handling request from Bombs (Thread-8)
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-4
-2019-10-17 00:29:57 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper (Thread-12) is stop waiting
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-5
-2019-10-17 00:29:57 [Thread-12] INFO  by.epam.entity.Van - Unloading Cooper (Thread-12)
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-6
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-7
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-8
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-9
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-10
-2019-10-17 00:29:57 [main] INFO  by.epam.entity.Van - Stopping thread Thread-11
-2019-10-17 00:29:57 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron (Thread-13) is stop waiting
-2019-10-17 00:29:57 [Thread-13] INFO  by.epam.entity.Van - Unloading Iron (Thread-13)
-2019-10-17 00:30:02 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver (Thread-11) is stop waiting
-2019-10-17 00:30:02 [Thread-11] INFO  by.epam.entity.Van - Unloading Silver (Thread-11)
-2019-10-17 00:30:07 [main] INFO  by.epam.entity.Van - Stopping thread Thread-12
-2019-10-17 00:30:07 [main] INFO  by.epam.entity.Van - Stopping thread Thread-13
-2019-10-17 00:35:30 [main] INFO  by.epam.action.VanParser - Parsed file
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-1
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-2
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-3
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-4
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-5
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-6
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-7
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-8
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-9
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-10
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-11
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-12
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Starting thread Thread-13
-2019-10-17 00:35:30 [main] INFO  by.epam.entity.Van - Stopping thread Thread-1
-2019-10-17 00:35:30 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-9)
-2019-10-17 00:35:30 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper (Thread-12)
-2019-10-17 00:35:30 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons (Thread-3)
-2019-10-17 00:35:30 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs (Thread-2)
-2019-10-17 00:35:30 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-9) is waiting
-2019-10-17 00:35:30 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs (Thread-2) is waiting
-2019-10-17 00:35:30 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts (Thread-5)
-2019-10-17 00:35:30 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons (Thread-3) is waiting
-2019-10-17 00:35:30 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-9) is stop waiting
-2019-10-17 00:35:30 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold (Thread-10)
-2019-10-17 00:35:30 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison (Thread-4)
-2019-10-17 00:35:30 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper (Thread-12) is waiting
-2019-10-17 00:35:30 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-6)
-2019-10-17 00:35:30 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron (Thread-13)
-2019-10-17 00:35:30 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-6) is waiting
-2019-10-17 00:35:30 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver (Thread-11)
-2019-10-17 00:35:30 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-8)
-2019-10-17 00:35:30 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing (Thread-7)
-2019-10-17 00:35:30 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-6) is stop waiting
-2019-10-17 00:35:30 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-8) is waiting
-2019-10-17 00:35:30 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-7) is waiting
-2019-10-17 00:35:30 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold (Thread-10) is waiting
-2019-10-17 00:35:30 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts (Thread-5) is waiting
-2019-10-17 00:35:30 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison (Thread-4) is waiting
-2019-10-17 00:35:30 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron (Thread-13) is waiting
-2019-10-17 00:35:30 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver (Thread-11) is waiting
-2019-10-17 00:35:30 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies (Thread-1)
-2019-10-17 00:35:30 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts (Thread-5) is stop waiting
-2019-10-17 00:35:30 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold (Thread-10) is stop waiting
-2019-10-17 00:35:30 [Thread-5] INFO  by.epam.entity.Van - Unloading Artifacts (Thread-5)
-2019-10-17 00:35:30 [Thread-10] INFO  by.epam.entity.Van - Unloading Gold (Thread-10)
-2019-10-17 00:35:35 [Thread-5] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-5)
-2019-10-17 00:35:35 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron (Thread-13) is stop waiting
-2019-10-17 00:35:35 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies (Thread-1) is waiting
-2019-10-17 00:35:35 [Thread-6] INFO  by.epam.entity.Van - Loading Artifacts (Thread-6)
-2019-10-17 00:35:35 [Thread-13] INFO  by.epam.entity.Van - Unloading Iron (Thread-13)
-2019-10-17 00:35:35 [Thread-10] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-10)
-2019-10-17 00:35:35 [Thread-9] INFO  by.epam.entity.Van - Loading Gold (Thread-9)
-2019-10-17 00:35:35 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison (Thread-4) is stop waiting
-2019-10-17 00:35:35 [Thread-4] INFO  by.epam.entity.Van - Unloading Barrels of poison (Thread-4)
-2019-10-17 00:35:38 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-8) is stop waiting
-2019-10-17 00:35:38 [Thread-6] INFO  by.epam.entity.LogisticBase - Ending handling request from Artifacts (Thread-6)
-2019-10-17 00:35:38 [Thread-9] INFO  by.epam.entity.LogisticBase - Ending handling request from Gold (Thread-9)
-2019-10-17 00:35:38 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing (Thread-7) is stop waiting
-2019-10-17 00:35:40 [Thread-7] INFO  by.epam.entity.Van - Loading Iron (Thread-7)
-2019-10-17 00:35:40 [Thread-13] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-13)
-2019-10-17 00:35:40 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies (Thread-1) is stop waiting
-2019-10-17 00:35:40 [Thread-1] INFO  by.epam.entity.Van - Unloading Candies (Thread-1)
-2019-10-17 00:35:40 [Thread-4] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-4)
-2019-10-17 00:35:40 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper (Thread-12) is stop waiting
-2019-10-17 00:35:40 [Thread-8] INFO  by.epam.entity.Van - Loading Barrels of poison (Thread-8)
-2019-10-17 00:35:40 [Thread-12] INFO  by.epam.entity.Van - Unloading Cooper (Thread-12)
-2019-10-17 00:35:43 [Thread-7] INFO  by.epam.entity.LogisticBase - Ending handling request from Iron (Thread-7)
-2019-10-17 00:35:43 [Thread-8] INFO  by.epam.entity.LogisticBase - Ending handling request from Barrels of poison (Thread-8)
-2019-10-17 00:35:45 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons (Thread-3) is stop waiting
-2019-10-17 00:35:45 [Thread-3] INFO  by.epam.entity.Van - Unloading Weapons (Thread-3)
-2019-10-17 00:35:45 [Thread-12] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-12)
-2019-10-17 00:35:45 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs (Thread-2) is stop waiting
-2019-10-17 00:35:45 [Thread-2] INFO  by.epam.entity.Van - Unloading Bombs (Thread-2)
-2019-10-17 00:35:45 [Thread-1] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-1)
-2019-10-17 00:35:45 [main] INFO  by.epam.entity.Van - Stopping thread Thread-2
-2019-10-17 00:35:50 [Thread-3] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-3)
-2019-10-17 00:35:50 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver (Thread-11) is stop waiting
-2019-10-17 00:35:50 [Thread-11] INFO  by.epam.entity.Van - Unloading Silver (Thread-11)
-2019-10-17 00:35:50 [Thread-2] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-2)
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-3
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-4
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-5
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-6
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-7
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-8
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-9
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-10
-2019-10-17 00:35:50 [main] INFO  by.epam.entity.Van - Stopping thread Thread-11
-2019-10-17 00:35:55 [Thread-11] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-11)
-2019-10-17 00:35:55 [main] INFO  by.epam.entity.Van - Stopping thread Thread-12
-2019-10-17 00:35:55 [main] INFO  by.epam.entity.Van - Stopping thread Thread-13
-2019-10-17 00:43:57 [main] INFO  by.epam.action.VanParser - Parsed file
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Starting thread
-2019-10-17 00:43:57 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold
-2019-10-17 00:43:57 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:43:57 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is waiting
-2019-10-17 00:43:57 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
-2019-10-17 00:43:57 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is stop waiting
-2019-10-17 00:43:57 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
-2019-10-17 00:43:57 [Thread-10] INFO  by.epam.entity.Van - Unloading Gold
-2019-10-17 00:43:57 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies
-2019-10-17 00:43:57 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver
-2019-10-17 00:43:57 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is waiting
-2019-10-17 00:43:57 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
-2019-10-17 00:43:57 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
-2019-10-17 00:43:57 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
-2019-10-17 00:43:57 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
-2019-10-17 00:43:57 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
-2019-10-17 00:43:57 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
-2019-10-17 00:43:57 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is waiting
-2019-10-17 00:43:57 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is stop waiting
-2019-10-17 00:43:57 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts
-2019-10-17 00:43:57 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison
-2019-10-17 00:43:57 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
-2019-10-17 00:43:57 [Thread-1] INFO  by.epam.entity.Van - Unloading Candies
-2019-10-17 00:43:57 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons
-2019-10-17 00:43:57 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs
-2019-10-17 00:43:57 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron
-2019-10-17 00:43:57 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper
-2019-10-17 00:44:02 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is waiting
-2019-10-17 00:44:02 [Thread-10] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-10)
-2019-10-17 00:44:02 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is waiting
-2019-10-17 00:44:02 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is stop waiting
-2019-10-17 00:44:02 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is waiting
-2019-10-17 00:44:02 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is waiting
-2019-10-17 00:44:02 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is waiting
-2019-10-17 00:44:02 [Thread-8] INFO  by.epam.entity.Van - Loading Gold
-2019-10-17 00:44:02 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is waiting
-2019-10-17 00:44:02 [Thread-11] INFO  by.epam.entity.Van - Unloading Silver
-2019-10-17 00:44:02 [Thread-1] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-1)
-2019-10-17 00:44:02 [Thread-9] INFO  by.epam.entity.Van - Loading Candies
-2019-10-17 00:44:02 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is stop waiting
-2019-10-17 00:44:02 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:02 [Thread-5] INFO  by.epam.entity.Van - Unloading Artifacts
-2019-10-17 00:44:05 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
-2019-10-17 00:44:05 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
-2019-10-17 00:44:05 [Thread-8] INFO  by.epam.entity.LogisticBase - Ending handling request from Gold (Thread-8)
-2019-10-17 00:44:05 [Thread-9] INFO  by.epam.entity.LogisticBase - Ending handling request from Candies (Thread-9)
-2019-10-17 00:44:05 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
-2019-10-17 00:44:07 [Thread-6] INFO  by.epam.entity.Van - Loading Artifacts
-2019-10-17 00:44:07 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is stop waiting
-2019-10-17 00:44:07 [Thread-7] INFO  by.epam.entity.Van - Loading Silver
-2019-10-17 00:44:07 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is stop waiting
-2019-10-17 00:44:07 [Thread-11] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-11)
-2019-10-17 00:44:07 [Thread-5] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-5)
-2019-10-17 00:44:07 [Thread-13] INFO  by.epam.entity.Van - Unloading Iron
-2019-10-17 00:44:07 [Thread-12] INFO  by.epam.entity.Van - Unloading Cooper
-2019-10-17 00:44:10 [Thread-6] INFO  by.epam.entity.LogisticBase - Ending handling request from Artifacts (Thread-6)
-2019-10-17 00:44:10 [Thread-7] INFO  by.epam.entity.LogisticBase - Ending handling request from Silver (Thread-7)
-2019-10-17 00:44:12 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is stop waiting
-2019-10-17 00:44:12 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is stop waiting
-2019-10-17 00:44:12 [Thread-13] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-13)
-2019-10-17 00:44:12 [Thread-12] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-12)
-2019-10-17 00:44:12 [Thread-3] INFO  by.epam.entity.Van - Unloading Weapons
-2019-10-17 00:44:12 [Thread-2] INFO  by.epam.entity.Van - Unloading Bombs
-2019-10-17 00:44:17 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is stop waiting
-2019-10-17 00:44:17 [Thread-2] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-2)
-2019-10-17 00:44:17 [Thread-3] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-3)
-2019-10-17 00:44:17 [Thread-4] INFO  by.epam.entity.Van - Unloading Barrels of poison
-2019-10-17 00:44:17 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:17 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [Thread-4] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-4)
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
-2019-10-17 00:44:22 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:14:32 [main] INFO  by.epam.action.VanParser - Parsed file
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies
+2019-10-17 14:14:32 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts
+2019-10-17 14:14:32 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:14:32 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:14:32 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is waiting
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs
+2019-10-17 14:14:32 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:14:32 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:14:32 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:14:32 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is waiting
+2019-10-17 14:14:32 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold
+2019-10-17 14:14:32 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons
+2019-10-17 14:14:32 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:14:32 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:14:32 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:14:32 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:14:32 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:14:32 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper
+2019-10-17 14:14:32 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:14:32 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver
+2019-10-17 14:14:32 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron
+2019-10-17 14:19:17 [main] INFO  by.epam.action.VanParser - Parsed file
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:19:17 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons
+2019-10-17 14:19:17 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:19:17 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:19:17 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:19:17 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:19:17 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:19:17 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs
+2019-10-17 14:19:17 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts
+2019-10-17 14:19:17 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is waiting
+2019-10-17 14:19:17 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is waiting
+2019-10-17 14:19:17 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:19:17 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is stop waiting
+2019-10-17 14:19:17 [Thread-3] INFO  by.epam.entity.Van - Unloading Weapons
+2019-10-17 14:19:17 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver
+2019-10-17 14:19:17 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is waiting
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:19:17 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies
+2019-10-17 14:19:17 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold
+2019-10-17 14:19:17 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:19:17 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is waiting
+2019-10-17 14:19:17 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:19:17 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is waiting
+2019-10-17 14:19:17 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is stop waiting
+2019-10-17 14:19:17 [Thread-5] INFO  by.epam.entity.Van - Unloading Artifacts
+2019-10-17 14:19:17 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is waiting
+2019-10-17 14:19:17 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:19:17 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison
+2019-10-17 14:19:17 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:17 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron
+2019-10-17 14:19:17 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper
+2019-10-17 14:19:22 [Thread-3] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-3)
+2019-10-17 14:19:22 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is waiting
+2019-10-17 14:19:22 [Thread-6] INFO  by.epam.entity.Van - Loading Weapons
+2019-10-17 14:19:22 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is waiting
+2019-10-17 14:19:22 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is waiting
+2019-10-17 14:19:22 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is stop waiting
+2019-10-17 14:19:22 [Thread-10] INFO  by.epam.entity.Van - Unloading Gold
+2019-10-17 14:19:22 [Thread-9] INFO  by.epam.entity.Van - Loading Artifacts
+2019-10-17 14:19:22 [Thread-5] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-5)
+2019-10-17 14:19:22 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is stop waiting
+2019-10-17 14:19:22 [Thread-11] INFO  by.epam.entity.Van - Unloading Silver
+2019-10-17 14:19:25 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:19:25 [Thread-6] INFO  by.epam.entity.LogisticBase - Ending handling request from Weapons (Thread-6)
+2019-10-17 14:19:25 [Thread-9] INFO  by.epam.entity.LogisticBase - Ending handling request from Artifacts (Thread-9)
+2019-10-17 14:19:25 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:19:27 [Thread-10] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-10)
+2019-10-17 14:19:27 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is stop waiting
+2019-10-17 14:19:27 [Thread-7] INFO  by.epam.entity.Van - Loading Gold
+2019-10-17 14:19:27 [Thread-12] INFO  by.epam.entity.Van - Unloading Cooper
+2019-10-17 14:19:27 [Thread-11] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-11)
+2019-10-17 14:19:27 [Thread-8] INFO  by.epam.entity.Van - Loading Silver
+2019-10-17 14:19:27 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is stop waiting
+2019-10-17 14:19:27 [Thread-13] INFO  by.epam.entity.Van - Unloading Iron
+2019-10-17 14:19:30 [Thread-8] INFO  by.epam.entity.LogisticBase - Ending handling request from Silver (Thread-8)
+2019-10-17 14:19:30 [Thread-7] INFO  by.epam.entity.LogisticBase - Ending handling request from Gold (Thread-7)
+2019-10-17 14:19:32 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is stop waiting
+2019-10-17 14:19:32 [Thread-12] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-12)
+2019-10-17 14:19:32 [Thread-4] INFO  by.epam.entity.Van - Unloading Barrels of poison
+2019-10-17 14:19:32 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is stop waiting
+2019-10-17 14:19:32 [Thread-13] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-13)
+2019-10-17 14:19:32 [Thread-1] INFO  by.epam.entity.Van - Unloading Candies
+2019-10-17 14:19:37 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is stop waiting
+2019-10-17 14:19:37 [Thread-4] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-4)
+2019-10-17 14:19:37 [Thread-2] INFO  by.epam.entity.Van - Unloading Bombs
+2019-10-17 14:19:37 [Thread-1] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-1)
+2019-10-17 14:19:37 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [Thread-2] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-2)
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:19:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:21 [main] INFO  by.epam.action.VanParser - Parsed file
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:21:21 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:21 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:21:21 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:21:21 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold
+2019-10-17 14:21:21 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs
+2019-10-17 14:21:21 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons
+2019-10-17 14:21:21 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison
+2019-10-17 14:21:21 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies
+2019-10-17 14:21:21 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:21:21 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is waiting
+2019-10-17 14:21:21 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:21:21 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is waiting
+2019-10-17 14:21:21 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron
+2019-10-17 14:21:21 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts
+2019-10-17 14:21:21 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:21:21 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is waiting
+2019-10-17 14:21:21 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:21:21 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver
+2019-10-17 14:21:21 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper
+2019-10-17 14:21:21 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is waiting
+2019-10-17 14:21:21 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is waiting
+2019-10-17 14:21:21 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is waiting
+2019-10-17 14:21:21 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is waiting
+2019-10-17 14:21:21 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is waiting
+2019-10-17 14:21:21 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:21:21 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is waiting
+2019-10-17 14:21:21 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is stop waiting
+2019-10-17 14:21:21 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:21:21 [Thread-10] INFO  by.epam.entity.Van - Unloading Gold
+2019-10-17 14:21:21 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:21:21 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:21:21 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is stop waiting
+2019-10-17 14:21:21 [Thread-5] INFO  by.epam.entity.Van - Unloading Artifacts
+2019-10-17 14:21:26 [Thread-10] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-10)
+2019-10-17 14:21:26 [Thread-5] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-5)
+2019-10-17 14:21:26 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is stop waiting
+2019-10-17 14:21:26 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is stop waiting
+2019-10-17 14:21:26 [Thread-9] INFO  by.epam.entity.Van - Loading Artifacts
+2019-10-17 14:21:26 [Thread-8] INFO  by.epam.entity.Van - Loading Gold
+2019-10-17 14:21:26 [Thread-3] INFO  by.epam.entity.Van - Unloading Weapons
+2019-10-17 14:21:26 [Thread-11] INFO  by.epam.entity.Van - Unloading Silver
+2019-10-17 14:21:29 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:21:29 [Thread-8] INFO  by.epam.entity.LogisticBase - Ending handling request from Gold (Thread-8)
+2019-10-17 14:21:29 [Thread-9] INFO  by.epam.entity.LogisticBase - Ending handling request from Artifacts (Thread-9)
+2019-10-17 14:21:29 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:21:31 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is stop waiting
+2019-10-17 14:21:31 [Thread-7] INFO  by.epam.entity.Van - Loading Weapons
+2019-10-17 14:21:31 [Thread-11] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-11)
+2019-10-17 14:21:31 [Thread-3] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-3)
+2019-10-17 14:21:31 [Thread-6] INFO  by.epam.entity.Van - Loading Silver
+2019-10-17 14:21:31 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is stop waiting
+2019-10-17 14:21:31 [Thread-13] INFO  by.epam.entity.Van - Unloading Iron
+2019-10-17 14:21:31 [Thread-1] INFO  by.epam.entity.Van - Unloading Candies
+2019-10-17 14:21:34 [Thread-7] INFO  by.epam.entity.LogisticBase - Ending handling request from Weapons (Thread-7)
+2019-10-17 14:21:34 [Thread-6] INFO  by.epam.entity.LogisticBase - Ending handling request from Silver (Thread-6)
+2019-10-17 14:21:36 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is stop waiting
+2019-10-17 14:21:36 [Thread-4] INFO  by.epam.entity.Van - Unloading Barrels of poison
+2019-10-17 14:21:36 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is stop waiting
+2019-10-17 14:21:36 [Thread-12] INFO  by.epam.entity.Van - Unloading Cooper
+2019-10-17 14:21:36 [Thread-1] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-1)
+2019-10-17 14:21:36 [Thread-13] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-13)
+2019-10-17 14:21:36 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:41 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is stop waiting
+2019-10-17 14:21:41 [Thread-2] INFO  by.epam.entity.Van - Unloading Bombs
+2019-10-17 14:21:41 [Thread-4] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-4)
+2019-10-17 14:21:41 [Thread-12] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-12)
+2019-10-17 14:21:46 [Thread-2] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing (Thread-2)
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:21:46 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:00 [main] INFO  by.epam.action.VanParser - Parsed file
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:40:00 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:00 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:40:00 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:40:00 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:40:00 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:40:00 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts
+2019-10-17 14:40:00 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold
+2019-10-17 14:40:00 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is waiting
+2019-10-17 14:40:00 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is waiting
+2019-10-17 14:40:00 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper
+2019-10-17 14:40:00 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is stop waiting
+2019-10-17 14:40:00 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is waiting
+2019-10-17 14:40:00 [Thread-5] INFO  by.epam.entity.Van - Unloading Artifacts
+2019-10-17 14:40:00 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs
+2019-10-17 14:40:00 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is waiting
+2019-10-17 14:40:00 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons
+2019-10-17 14:40:00 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is waiting
+2019-10-17 14:40:00 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison
+2019-10-17 14:40:00 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is waiting
+2019-10-17 14:40:00 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:40:00 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver
+2019-10-17 14:40:00 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is waiting
+2019-10-17 14:40:00 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:40:00 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:40:00 [Thread-8] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:40:00 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:40:00 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:40:00 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:40:00 [Thread-9] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:40:00 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron
+2019-10-17 14:40:00 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is stop waiting
+2019-10-17 14:40:00 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is waiting
+2019-10-17 14:40:00 [Thread-10] INFO  by.epam.entity.Van - Unloading Gold
+2019-10-17 14:40:00 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies
+2019-10-17 14:40:00 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is waiting
+2019-10-17 14:40:05 [Thread-8] INFO  by.epam.entity.Van - Loading Artifacts
+2019-10-17 14:40:05 [Thread-5] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:05 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is stop waiting
+2019-10-17 14:40:05 [Thread-11] INFO  by.epam.entity.Van - Unloading Silver
+2019-10-17 14:40:05 [Thread-10] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:05 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is stop waiting
+2019-10-17 14:40:05 [Thread-9] INFO  by.epam.entity.Van - Loading Gold
+2019-10-17 14:40:05 [Thread-1] INFO  by.epam.entity.Van - Unloading Candies
+2019-10-17 14:40:08 [Thread-8] INFO  by.epam.entity.LogisticBase - Ending handling request from Artifacts
+2019-10-17 14:40:08 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:40:08 [Thread-6] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:40:08 [Thread-9] INFO  by.epam.entity.LogisticBase - Ending handling request from Gold
+2019-10-17 14:40:08 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:40:08 [Thread-7] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:40:10 [Thread-11] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:10 [Thread-6] INFO  by.epam.entity.Van - Loading Silver
+2019-10-17 14:40:10 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is stop waiting
+2019-10-17 14:40:10 [Thread-13] INFO  by.epam.entity.Van - Unloading Iron
+2019-10-17 14:40:10 [Thread-7] INFO  by.epam.entity.Van - Loading Candies
+2019-10-17 14:40:10 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is stop waiting
+2019-10-17 14:40:10 [Thread-4] INFO  by.epam.entity.Van - Unloading Barrels of poison
+2019-10-17 14:40:10 [Thread-1] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:10 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:13 [Thread-6] INFO  by.epam.entity.LogisticBase - Ending handling request from Silver
+2019-10-17 14:40:13 [Thread-7] INFO  by.epam.entity.LogisticBase - Ending handling request from Candies
+2019-10-17 14:40:15 [Thread-13] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:15 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is stop waiting
+2019-10-17 14:40:15 [Thread-3] INFO  by.epam.entity.Van - Unloading Weapons
+2019-10-17 14:40:15 [Thread-4] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:15 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is stop waiting
+2019-10-17 14:40:15 [Thread-2] INFO  by.epam.entity.Van - Unloading Bombs
+2019-10-17 14:40:20 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is stop waiting
+2019-10-17 14:40:20 [Thread-3] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:20 [Thread-12] INFO  by.epam.entity.Van - Unloading Cooper
+2019-10-17 14:40:20 [Thread-2] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:20 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:40:25 [Thread-12] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:40:25 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:47:37 [main] INFO  by.epam.action.VanParser - Parsed file
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Starting thread
+2019-10-17 14:47:37 [Thread-9] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:47:37 [Thread-8] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:47:37 [Thread-1] INFO  by.epam.entity.LogisticBase - Handling request from Candies
+2019-10-17 14:47:37 [Thread-10] INFO  by.epam.entity.LogisticBase - Handling request from Gold
+2019-10-17 14:47:37 [Thread-6] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:47:37 [Thread-7] INFO  by.epam.entity.LogisticBase - Handling request from Nothing
+2019-10-17 14:47:37 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:47:37 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:47:37 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is waiting
+2019-10-17 14:47:37 [Thread-9] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:47:37 [Thread-10] INFO  by.epam.action.PrioritySemaphore - Gold is stop waiting
+2019-10-17 14:47:37 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:47:37 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is waiting
+2019-10-17 14:47:37 [Thread-4] INFO  by.epam.entity.LogisticBase - Handling request from Barrels of poison
+2019-10-17 14:47:37 [Thread-7] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:47:37 [Thread-1] INFO  by.epam.action.PrioritySemaphore - Candies is stop waiting
+2019-10-17 14:47:37 [Thread-2] INFO  by.epam.entity.LogisticBase - Handling request from Bombs
+2019-10-17 14:47:37 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is waiting
+2019-10-17 14:47:37 [Thread-12] INFO  by.epam.entity.LogisticBase - Handling request from Cooper
+2019-10-17 14:47:37 [Thread-5] INFO  by.epam.entity.LogisticBase - Handling request from Artifacts
+2019-10-17 14:47:37 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is waiting
+2019-10-17 14:47:37 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is waiting
+2019-10-17 14:47:37 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is waiting
+2019-10-17 14:47:37 [Thread-11] INFO  by.epam.entity.LogisticBase - Handling request from Silver
+2019-10-17 14:47:37 [Thread-9] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:47:37 [Thread-3] INFO  by.epam.entity.LogisticBase - Handling request from Weapons
+2019-10-17 14:47:37 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is waiting
+2019-10-17 14:47:37 [Thread-10] INFO  by.epam.entity.Van - Unloading Gold
+2019-10-17 14:47:37 [Thread-7] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:47:37 [Thread-1] INFO  by.epam.entity.Van - Unloading Candies
+2019-10-17 14:47:37 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:47:37 [Thread-13] INFO  by.epam.entity.LogisticBase - Handling request from Iron
+2019-10-17 14:47:42 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is waiting
+2019-10-17 14:47:42 [Thread-7] INFO  by.epam.entity.Van - Loading Candies
+2019-10-17 14:47:42 [Thread-10] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:47:42 [Thread-2] INFO  by.epam.action.PrioritySemaphore - Bombs is stop waiting
+2019-10-17 14:47:42 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is waiting
+2019-10-17 14:47:42 [Thread-9] INFO  by.epam.entity.Van - Loading Gold
+2019-10-17 14:47:42 [Thread-1] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:47:42 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is waiting
+2019-10-17 14:47:42 [Thread-5] INFO  by.epam.action.PrioritySemaphore - Artifacts is stop waiting
+2019-10-17 14:47:42 [Thread-2] INFO  by.epam.entity.Van - Unloading Bombs
+2019-10-17 14:47:42 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:47:42 [Thread-5] INFO  by.epam.entity.Van - Unloading Artifacts
+2019-10-17 14:47:45 [Thread-6] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:47:45 [Thread-7] INFO  by.epam.entity.LogisticBase - Ending handling request from Candies
+2019-10-17 14:47:45 [Thread-9] INFO  by.epam.entity.LogisticBase - Ending handling request from Gold
+2019-10-17 14:47:45 [Thread-8] INFO  by.epam.action.PrioritySemaphore - Nothing is stop waiting
+2019-10-17 14:47:45 [Thread-6] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:47:45 [Thread-8] INFO  by.epam.entity.LogisticBase - Storage is empty
+2019-10-17 14:47:47 [Thread-2] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:47:47 [Thread-13] INFO  by.epam.action.PrioritySemaphore - Iron is stop waiting
+2019-10-17 14:47:47 [Thread-6] INFO  by.epam.entity.Van - Loading Bombs
+2019-10-17 14:47:47 [Thread-13] INFO  by.epam.entity.Van - Unloading Iron
+2019-10-17 14:47:47 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:47:47 [Thread-5] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:47:47 [Thread-8] INFO  by.epam.entity.Van - Loading Artifacts
+2019-10-17 14:47:47 [Thread-3] INFO  by.epam.action.PrioritySemaphore - Weapons is stop waiting
+2019-10-17 14:47:47 [Thread-3] INFO  by.epam.entity.Van - Unloading Weapons
+2019-10-17 14:47:50 [Thread-6] INFO  by.epam.entity.LogisticBase - Ending handling request from Bombs
+2019-10-17 14:47:50 [Thread-8] INFO  by.epam.entity.LogisticBase - Ending handling request from Artifacts
+2019-10-17 14:47:52 [Thread-13] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:47:52 [Thread-11] INFO  by.epam.action.PrioritySemaphore - Silver is stop waiting
+2019-10-17 14:47:52 [Thread-11] INFO  by.epam.entity.Van - Unloading Silver
+2019-10-17 14:47:52 [Thread-3] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:47:52 [Thread-12] INFO  by.epam.action.PrioritySemaphore - Cooper is stop waiting
+2019-10-17 14:47:52 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:47:52 [Thread-12] INFO  by.epam.entity.Van - Unloading Cooper
+2019-10-17 14:47:57 [Thread-11] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:47:57 [Thread-4] INFO  by.epam.action.PrioritySemaphore - Barrels of poison is stop waiting
+2019-10-17 14:47:57 [Thread-4] INFO  by.epam.entity.Van - Unloading Barrels of poison
+2019-10-17 14:47:57 [Thread-12] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:48:02 [Thread-4] INFO  by.epam.entity.LogisticBase - Ending handling request from Nothing
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread
+2019-10-17 14:48:02 [main] INFO  by.epam.entity.Van - Stopping thread

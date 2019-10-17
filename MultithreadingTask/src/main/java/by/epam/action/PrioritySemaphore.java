@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.PriorityQueue;
 import java.util.concurrent.Semaphore;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -15,38 +16,53 @@ public class PrioritySemaphore {
 
     private Semaphore semaphore;
     private PriorityQueue<Van> queue;
-    private Lock lock;
+    private Lock queueLock;
+    private Lock waitLock;
+    private Condition waiting;
 
     public PrioritySemaphore(int permits) {
         semaphore = new Semaphore(permits, true);
         queue = new PriorityQueue<>();
-        lock = new ReentrantLock(true);
+        queueLock = new ReentrantLock(true);
+        waitLock = new ReentrantLock(true);
+        waiting = waitLock.newCondition();
     }
 
     public void acquire(Van van) {
-        lock.lock();
+        queueLock.lock();
         queue.add(van);
-        lock.unlock();
+        queueLock.unlock();
 
         try {
             logger.info(van.getGoodsName() + " is waiting");
-            while (true) {
-                lock.lock();
-                if (van.equals(queue.peek()) && !semaphore.hasQueuedThreads()) {
-                    queue.remove();
-                    semaphore.acquire();
-                    lock.unlock();
-                    logger.info(van.getGoodsName() + " is stop waiting");
-                    break;
-                }
-                lock.unlock();
+
+            while (queue.peek() != van || semaphore.hasQueuedThreads()) {
+                waitLock.lock();
+                waiting.await();
+                waitLock.unlock();
             }
+            queueLock.lock();
+
+            queue.remove();
+            semaphore.acquire();
+
+            waitLock.lock();
+            waiting.signalAll();
+            waitLock.unlock();
+
+            queueLock.unlock();
+
+            logger.info(van.getGoodsName() + " is stop waiting");
+
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         }
     }
 
     public void release() {
         semaphore.release();
+        waitLock.lock();
+        waiting.signalAll();
+        waitLock.unlock();
     }
 }

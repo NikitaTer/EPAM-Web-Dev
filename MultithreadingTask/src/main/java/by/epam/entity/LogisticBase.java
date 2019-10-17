@@ -6,6 +6,7 @@ import org.apache.logging.log4j.Logger;
 
 import java.util.PriorityQueue;
 import java.util.Queue;
+import java.util.concurrent.locks.Condition;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
@@ -17,13 +18,17 @@ public class LogisticBase {
     private static Queue<Goods> goods;
     private PrioritySemaphore semLoad;
     private PrioritySemaphore semUnload;
-    private Lock lock;
+    private Lock goodsLock;
+    private Condition isFull;
+    private Condition isEmpty;
 
     private LogisticBase() {
         goods = new PriorityQueue<>();
         semLoad = new PrioritySemaphore(2);
         semUnload = new PrioritySemaphore(2);
-        lock = new ReentrantLock(true);
+        goodsLock = new ReentrantLock(true);
+        isFull = goodsLock.newCondition();
+        isEmpty = goodsLock.newCondition();
     }
 
     public static LogisticBase getInstance() {
@@ -36,41 +41,49 @@ public class LogisticBase {
         if (van.toLoad()) {
             semLoad.acquire(van);
 
-            while (true) {
-                lock.lock();
-                if (goods.size() > 0) {
-                    Goods temp = goods.remove();
-                    lock.unlock();
-                    van.load(temp);
-                    break;
-                }
+            try {
 
-                lock.unlock();
+                goodsLock.lock();
+                while (goods.size() == 0) {
+                    logger.info("Storage is empty");
+                    isEmpty.await();
+                }
+                Goods temp = goods.remove();
+                isFull.signal();
+                goodsLock.unlock();
+                van.load(temp);
+
+            } catch (InterruptedException e) {
+                logger.error(e.getMessage());
             }
 
             semLoad.release();
         } else {
             semUnload.acquire(van);
 
-            while (true) {
-                lock.lock();
-                if (goods.size() < CAPACITY) {
-                    lock.unlock();
+            try {
 
-                    Goods temp = van.unload();
-
-                    lock.lock();
-                    goods.add(temp);
-                    lock.unlock();
-                    break;
+                goodsLock.lock();
+                while (goods.size() == CAPACITY) {
+                    logger.info("Storage is full");
+                    isFull.await();
                 }
+                goodsLock.unlock();
 
-                lock.unlock();
+                Goods temp = van.unload();
+
+                goodsLock.lock();
+                goods.add(temp);
+                isEmpty.signal();
+                goodsLock.unlock();
+
+            } catch (InterruptedException e) {
+                logger.error(e.getMessage());
             }
 
             semUnload.release();
         }
 
-        logger.info("Ending handling request from " + van.getGoodsName() + " (" + Thread.currentThread().getName() + ")");
+        logger.info("Ending handling request from " + van.getGoodsName());
     }
 }

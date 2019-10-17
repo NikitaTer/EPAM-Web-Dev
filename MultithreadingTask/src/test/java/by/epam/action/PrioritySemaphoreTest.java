@@ -21,6 +21,11 @@ public class PrioritySemaphoreTest {
             v.stop();
         }
 
-        assertTrue(true);
+        boolean result = false;
+        for (Van v : vans) {
+            result |= v.isAlive();
+        }
+
+        assertFalse(result);
     }
 }

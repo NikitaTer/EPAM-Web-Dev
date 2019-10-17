@@ -3,17 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a575d8eb-f82d-42b9-8b45-d3d49417e8ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/logs-2019-10-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logs-2019-10-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/logs.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logs.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/PrioritySemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/PrioritySemaphore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/LogisticBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/entity/LogisticBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/Van.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/entity/Van.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/by/epam/action/PrioritySemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/by/epam/action/PrioritySemaphoreTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/data/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MultithreadingTask.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/PrioritySemaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/PrioritySemaphore.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/entity/Goods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/entity/Goods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/entity/LogisticBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/entity/LogisticBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/epam/entity/Van.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/entity/Van.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/action/PrioritySemaphoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/by/epam/action/PrioritySemaphoreTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/PrioritySemaphore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="552">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,15 +36,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/Van.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+            <state relative-caret-position="512">
+              <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1806#1807#0" expanded="true" />
-                <element signature="e#1844#1845#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -57,8 +51,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/LogisticBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
+            <state relative-caret-position="569">
+              <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,8 +63,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/action/PrioritySemaphoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -79,13 +73,41 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/data/data.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/logs.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/VanParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
+            <state relative-caret-position="354">
               <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/logs-2019-10-16.log">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -118,12 +140,22 @@
       <find>0</find>
       <find>Thread-9</find>
       <find>is stop waiting</find>
+      <find>artifac</find>
+      <find>pars</find>
+      <find>waitLock.newCondition().await();</find>
+      <find>stop</find>
+      <find>Artifacts</find>
+      <find>Gold</find>
+      <find>stop wa</find>
+      <find>storage</find>
     </findStrings>
     <replaceStrings>
       <replace>van</replace>
       <replace>stop</replace>
       <replace>true</replace>
       <replace>false</replace>
+      <replace>notifyAll();</replace>
+      <replace>waiting.await</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -138,9 +170,11 @@
         <option value="$PROJECT_DIR$/src/test/resources/data/data.txt" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/action/VanParser.java" />
         <option value="$PROJECT_DIR$/src/test/java/by/epam/action/PrioritySemaphoreTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/Van.java" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/LogisticBase.java" />
+        <option value="$PROJECT_DIR$/logs/logs.log" />
+        <option value="$PROJECT_DIR$/logs/logs-2019-10-16.log" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/action/PrioritySemaphore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/LogisticBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/Van.java" />
       </list>
     </option>
   </component>
@@ -167,13 +201,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultithreadingTask" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultithreadingTask" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
@@ -254,11 +293,30 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultithreadingTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultithreadingTask" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultithreadingTask" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,7 +325,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MultithreadingTask" />
     <property name="node.js.path.for.package.stylelint" value="project" />
     <property name="node.js.selected.package.stylelint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -375,45 +433,45 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PrioritySemaphoreTest - 2019.10.16 at 23h 40m 16s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 12h 05m 17s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.16 at 23h 43m 30s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 12h 05m 55s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.16 at 23h 47m 06s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 12h 07m 59s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.16 at 23h 57m 27s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 12h 09m 03s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.16 at 23h 58m 59s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 14h 12m 23s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 00h 06m 56s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 14h 14m 18s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 00h 10m 40s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 14h 19m 12s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 00h 12m 03s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 14h 19m 42s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 00h 30m 07s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 14h 21m 46s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 00h 35m 55s.xml">
+    <history-entry file="PrioritySemaphoreTest - 2019.10.17 at 14h 40m 25s.xml">
       <configuration name="PrioritySemaphoreTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43329000" />
+    <option name="totallyTimeSpent" value="50384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -451,13 +509,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/App.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/state/VanState.java" />
-    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="984" column="22" lean-forward="true" selection-start-line="984" selection-start-column="22" selection-end-line="984" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -476,13 +527,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -496,8 +540,8 @@
     </entry>
     <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/Semaphore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="665" column="25" selection-start-line="665" selection-start-column="25" selection-end-line="665" selection-end-column="25" />
+        <state relative-caret-position="316">
+          <caret line="311" column="27" lean-forward="true" selection-start-line="311" selection-start-column="27" selection-end-line="311" selection-end-column="27" />
           <folding>
             <element signature="e#26572#26573#0" expanded="true" />
             <element signature="e#26618#26619#0" expanded="true" />
@@ -505,42 +549,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/data/data.txt">
+    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state relative-caret-position="333">
+          <caret line="1300" column="25" lean-forward="true" selection-start-line="1300" selection-start-column="25" selection-end-line="1300" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/action/PrioritySemaphoreTest.java">
+    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="291">
+          <caret line="945" column="26" selection-start-line="945" selection-start-column="26" selection-end-line="945" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#36709#36710#0" expanded="true" />
+            <element signature="e#36767#36768#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/Van.java">
+    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Lock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/LogisticBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="33" column="65" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="458">
+          <caret line="355" column="10" selection-start-line="355" selection-start-column="10" selection-end-line="355" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -551,9 +581,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/Condition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="223" column="41" lean-forward="true" selection-start-line="223" selection-start-column="41" selection-end-line="223" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/logs.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/VanParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
+        <state relative-caret-position="354">
           <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -563,8 +603,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/PrioritySemaphore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="552">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/LogisticBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="569">
+          <caret line="76" column="33" lean-forward="true" selection-start-line="76" selection-start-column="33" selection-end-line="76" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/logs-2019-10-16.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/data/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/by/epam/action/PrioritySemaphoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/Van.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

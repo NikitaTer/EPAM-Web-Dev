@@ -3,8 +3,6 @@ package by.epam.entity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Objects;
-import java.util.concurrent.Callable;
 import java.util.concurrent.TimeUnit;
 
 public class Van implements Runnable, Comparable<Van> {
@@ -42,9 +40,12 @@ public class Van implements Runnable, Comparable<Van> {
             logger.info("Stopping thread");
             thread.join();
         } catch (InterruptedException e) {
-            e.printStackTrace();
             logger.error(e.getMessage());
         }
+    }
+
+    public boolean isAlive() {
+        return thread.isAlive();
     }
 
     public void load(Goods goods) {
@@ -52,7 +53,6 @@ public class Van implements Runnable, Comparable<Van> {
         try {
             TimeUnit.SECONDS.sleep(3);
         } catch (InterruptedException e) {
-            e.printStackTrace();
             logger.error(e.getMessage());
         }
 
@@ -64,7 +64,6 @@ public class Van implements Runnable, Comparable<Van> {
         try {
             TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
-            e.printStackTrace();
             logger.error(e.getMessage());
         }
 
