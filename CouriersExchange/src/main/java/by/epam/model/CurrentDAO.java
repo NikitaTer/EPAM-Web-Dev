@@ -1,3 +1,4 @@
+/*
 package by.epam.model;
 
 import by.epam.entity.*;
@@ -51,9 +52,9 @@ public class CurrentDAO implements UserDAO {
         List<Courier> couriers = null;
 
         try(Connection connection = ConnectionPool.getInstance().getConnection()) {
-            PreparedStatement statement = connection.prepareStatement(SQLCommands.GET_ALL_COURIERS);
+            PreparedStatement statement = connection.prepareStatement(SQLCommands.FIND_ALL_COURIERS);
             ResultSet set = statement.executeQuery();
-            couriers = CourierBuilder.createCouriers(set, this);
+            couriers = CouriersBuilder.createCouriers(set, this);
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -65,7 +66,7 @@ public class CurrentDAO implements UserDAO {
     public void addCourier(Courier courier) {
         try (Connection connection = ConnectionPool.getInstance().getConnection()) {
 
-            PreparedStatement statement = connection.prepareStatement(SQLCommands.ADD_COURIER);
+            PreparedStatement statement = connection.prepareStatement(SQLCommands.INSERT_COURIER);
             statement.setString(1, courier.getLogin());
             statement.setString(2, courier.getPassword());
             statement.setString(3, courier.getSalt());
@@ -84,7 +85,7 @@ public class CurrentDAO implements UserDAO {
         List<Admin> admins = null;
 
         try(Connection connection = ConnectionPool.getInstance().getConnection()) {
-            PreparedStatement statement = connection.prepareStatement(SQLCommands.GET_ALL_ADMINS);
+            PreparedStatement statement = connection.prepareStatement(SQLCommands.FIND_ALL_ADMINS);
             ResultSet set = statement.executeQuery();
             admins = AdminBuilder.createAdmin(set);
         } catch (SQLException e) {
@@ -115,7 +116,7 @@ public class CurrentDAO implements UserDAO {
         ClientsRequest request = null;
 
         try(Connection connection = ConnectionPool.getInstance().getConnection()) {
-            PreparedStatement statement = connection.prepareStatement(SQLCommands.GET_REQUEST);
+            PreparedStatement statement = connection.prepareStatement(SQLCommands.FIND_REQUEST);
             ResultSet set = statement.executeQuery();
             request = RequestBuilder.createRequest(set);
         } catch (SQLException e) {
@@ -129,7 +130,7 @@ public class CurrentDAO implements UserDAO {
     public void addRequest(ClientsRequest request) {
         try (Connection connection = ConnectionPool.getInstance().getConnection()) {
 
-            PreparedStatement statement = connection.prepareStatement(SQLCommands.ADD_REQUEST);
+            PreparedStatement statement = connection.prepareStatement(SQLCommands.INSERT_REQUEST);
             statement.setInt(1, request.getId());
             statement.setString(2, request.getCargoType());
             statement.setString(3, request.getCourierLogin());
@@ -145,7 +146,7 @@ public class CurrentDAO implements UserDAO {
         Vehicle vehicle = null;
 
         try(Connection connection = ConnectionPool.getInstance().getConnection()) {
-            PreparedStatement statement = connection.prepareStatement(SQLCommands.GET_VEHICLE);
+            PreparedStatement statement = connection.prepareStatement(SQLCommands.FIND_VEHICLE);
             statement.setInt(1, id);
             ResultSet set = statement.executeQuery();
             vehicle = VehicleBuilder.createVehicle(set);
@@ -161,3 +162,4 @@ public class CurrentDAO implements UserDAO {
 
     }
 }
+*/

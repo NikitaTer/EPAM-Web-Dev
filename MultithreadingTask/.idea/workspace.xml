@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a575d8eb-f82d-42b9-8b45-d3d49417e8ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nikit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CouriersExchange/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/CouriersExchange.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CouriersExchange/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/CurrentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/CurrentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/CurrentUserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/CurrentUserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/SQLCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/SQLCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/builder/UserBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../CouriersExchange/src/main/java/by/epam/model/builder/UsersBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CouriersExchange/target/classes/META-INF/CouriersExchange.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/PrioritySemaphore.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/VanParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/entity/Goods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/entity/LogisticBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/entity/Van.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/by/epam/action/PrioritySemaphoreTest.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
+            <state relative-caret-position="391">
               <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
             </state>
           </provider>
@@ -146,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -213,6 +221,13 @@
               <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
               <item name="MultithreadingTask" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MultithreadingTask" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MultithreadingTask" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -227,6 +242,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -343,6 +359,7 @@
       <workItem from="1571689762611" duration="4000" />
       <workItem from="1571689847497" duration="13000" />
       <workItem from="1571704561290" duration="55000" />
+      <workItem from="1572350040773" duration="181000" />
     </task>
     <servers />
   </component>
@@ -379,13 +396,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50512000" />
+    <option name="totallyTimeSpent" value="50693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,7 +505,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
+        <state relative-caret-position="391">
           <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
         </state>
       </provider>
