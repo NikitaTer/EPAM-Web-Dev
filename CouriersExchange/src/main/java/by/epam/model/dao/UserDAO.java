@@ -54,11 +54,8 @@ public class UserDAO implements BasicDAO<String, User> {
             statement.setString(2, user.getPassword());
             statement.setString(3, user.getSalt());
             statement.setString(4, user.getName());
-            statement.setInt(5, user.getRequestId());
-            statement.setBoolean(6, user.isOnline());
-            statement.setDate(7, Date.valueOf(user.getLastTimeSeen().toString()));
-            statement.setBoolean(8, user.isAdmin());
-            statement.setString(9, user.getEmail());
+            statement.setString(5, user.getEmail());
+            statement.setBoolean(6, user.isCourier());
 
             statement.executeUpdate();
         } catch (SQLException e) {
@@ -67,7 +64,7 @@ public class UserDAO implements BasicDAO<String, User> {
     }
 
     @Override
-    public Optional<User> update(User user) {
+    public Optional<User> update(User user)  {
         try(Connection connection = ConnectionPool.getInstance().getConnection()) {
             PreparedStatement statement = connection.prepareStatement(SQLCommands.UPDATE_USER);
         } catch (SQLException e) {
