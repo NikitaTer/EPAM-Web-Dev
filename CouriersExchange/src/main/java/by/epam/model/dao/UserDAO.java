@@ -73,6 +73,7 @@ public class UserDAO implements BasicDAO<String, User> {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        return Optional.empty();
     }
 
     @Override

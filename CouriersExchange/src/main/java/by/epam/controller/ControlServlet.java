@@ -7,7 +7,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = {"/*"})
+@WebServlet(urlPatterns = {"/controller"})
 public class ControlServlet extends HttpServlet {
 
     public ControlServlet() {
@@ -31,5 +31,9 @@ public class ControlServlet extends HttpServlet {
     @Override
     public void destroy() {
         super.destroy();
+    }
+
+    private void processRequest(HttpServletRequest request, HttpServletResponse response) {
+
     }
 }

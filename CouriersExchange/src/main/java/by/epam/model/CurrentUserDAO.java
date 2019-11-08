@@ -1,3 +1,4 @@
+/*
 package by.epam.model;
 
 import by.epam.entity.Courier;
@@ -165,3 +166,4 @@ public class CurrentUserDAO implements UserDAO {
         }
     }
 }
+*/

@@ -18,10 +18,10 @@ public class SendMail {
 
     public static void sendSignUpVerify(String to, String login, String code) {
         Properties properties = new Properties();
-        properties.put("mail.smtp.auth", "true");
-        properties.put("mail.smtp.starttls.enable", "true");
-        properties.put("mail.smtp.host", "smtp.gmail.com");
-        properties.put("mail.smtp.port", "587");
+        properties.put("mail.smtp.auth", MailData.AUTHENTICATION);
+        properties.put("mail.smtp.starttls.enable", MailData.STARTTLS);
+        properties.put("mail.smtp.host", MailData.HOST);
+        properties.put("mail.smtp.port", MailData.PORT);
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
@@ -36,7 +36,7 @@ public class SendMail {
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(to));
             message.setSubject("Verify message");
 
-            String text = Files.lines(Paths.get(MailData.VERIFY_MESSAGE_PATH)).collect(Collectors.joining());
+            String text = String.join("\n", Files.readAllLines(Paths.get(MailData.VERIFY_MESSAGE_PATH)));
             text = text.replace("%LOGIN%", login);
             text = text.replace("%CODE%", code);
 
