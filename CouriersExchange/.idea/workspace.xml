@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ee45863-adb1-4779-b7f4-4dfa0dca031e" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/logs-%d{yyyy-MM-dd}.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/logs-%d{yyyy-MM-dd}.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -26,6 +27,11 @@
       <change beforePath="$PROJECT_DIR$/target/classes/by/epam/model/CurrentUserDAO.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/epam/model/SQLCommands.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/by/epam/model/UserDAO.class" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/model/dao/SQLCommands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/model/dao/SQLCommands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/model/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/model/dao/UserDAO.java" afterDir="false" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +49,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/controller/ControlServlet.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="561">
               <caret line="35" column="89" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
+=======
+            <state relative-caret-position="444">
+              <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,6 +75,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/command/LogInCommand.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="204">
               <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
             </state>
@@ -78,6 +90,10 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="442">
+              <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
             </state>
           </provider>
         </entry>
@@ -159,7 +175,6 @@
         <option value="$PROJECT_DIR$/src/main/java/by/epam/controller/LogIn.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/controller/SignUp.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/CargoType.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/Cargo.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/Vehicle.java" />
@@ -189,8 +204,15 @@
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/logIn.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/SignUp.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/controller/ControlServlet.java" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/java/by/epam/action/command/ActionCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/by/epam/action/command/LogInCommand.java" />
+=======
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/model/dao/BasicDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/model/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/by/epam/model/dao/SQLCommands.java" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
       </list>
     </option>
   </component>
@@ -320,6 +342,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="epam" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CouriersExchange" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CouriersExchange" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="epam" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -327,13 +359,14 @@
               <item name="CouriersExchange" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CouriersExchange" type="b2602c69:ProjectViewProjectNode" />
               <item name="CouriersExchange" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="mail" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -343,6 +376,10 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
             </path>
             <path>
               <item name="CouriersExchange" type="b2602c69:ProjectViewProjectNode" />
@@ -350,7 +387,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
               <item name="jsp" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
             </path>
           </expand>
           <select />
@@ -591,13 +632,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="46254000" />
+=======
+    <option name="totallyTimeSpent" value="43212000" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20202559" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18923241" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -764,14 +813,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/model/builder/BasicBuilder.java" />
-    <entry file="jar://C:/Programs/JDK/src.zip!/java/util/List.java" />
-    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/sql/PreparedStatement.java">
+    <entry file="jar://C:/Programs/JDK/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="94" column="8" selection-start-line="94" selection-start-column="8" selection-end-line="94" selection-end-column="8" />
+        <state relative-caret-position="1479">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/sql/PreparedStatement.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/model/builder/CouriersBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -848,6 +897,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -887,12 +937,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/CargoType.java">
+=======
+    <entry file="jar://C:/Programs/Java/jdk1.8.0_191/src.zip!/java/lang/String.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/controller/LogIn.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/controller/SignUp.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/model/UserDAO.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/files/verify_message.txt">
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/files/mail/verify_message.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -900,6 +958,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/MailData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -938,6 +998,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/logIn.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -956,23 +1017,116 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="35" column="89" selection-start-line="35" selection-start-column="89" selection-end-line="35" selection-end-column="89" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/model/builder/UsersBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/command/ActionCommand.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/model/CurrentUserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/model/CurrentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="13" lean-forward="true" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/model/dao/BasicDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1266">
+          <caret line="124" column="36" selection-start-line="124" selection-start-column="36" selection-end-line="124" selection-end-column="36" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+            <element signature="e#461#462#0" expanded="true" />
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#821#822#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#879#880#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#983#984#0" expanded="true" />
+            <element signature="e#1011#1012#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1191#1192#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1260#1261#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#1401#1402#0" expanded="true" />
+            <element signature="e#1431#1432#0" expanded="true" />
+            <element signature="e#1474#1475#0" expanded="true" />
+            <element signature="e#1505#1506#0" expanded="true" />
+            <element signature="e#1539#1540#0" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1618#1619#0" expanded="true" />
+            <element signature="e#1653#1654#0" expanded="true" />
+            <element signature="e#1690#1691#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1779#1780#0" expanded="true" />
+            <element signature="e#1827#1828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/command/ActionCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="85">
           <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+=======
+        <state relative-caret-position="444">
+          <caret line="57" column="52" selection-start-line="57" selection-start-column="52" selection-end-line="57" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/by/epam/action/command/LogInCommand.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="204">
           <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+=======
+        <state relative-caret-position="442">
+          <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+>>>>>>> b3845f9884e85fd77431118b5c097d66d78bf640
         </state>
       </provider>
     </entry>

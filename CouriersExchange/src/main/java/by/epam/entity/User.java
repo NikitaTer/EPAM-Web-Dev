@@ -10,10 +10,11 @@ public class User {
     private String salt;
     private String email;
 
-    private int requestId;
+    private float rating;
 
     private boolean isOnline;
     private boolean isAdmin;
+    private boolean isCourier;
 
     private Date lastTimeSeen;
 
@@ -60,12 +61,12 @@ public class User {
         this.email = email;
     }
 
-    public int getRequestId() {
-        return requestId;
+    public float getRating() {
+        return rating;
     }
 
-    public void setRequestId(int requestId) {
-        this.requestId = requestId;
+    public void setRating(float rating) {
+        this.rating = rating;
     }
 
     public boolean isOnline() {
@@ -82,6 +83,14 @@ public class User {
 
     public void setAdmin(boolean admin) {
         isAdmin = admin;
+    }
+
+    public boolean isCourier() {
+        return isCourier;
+    }
+
+    public void setCourier(boolean courier) {
+        isCourier = courier;
     }
 
     public Date getLastTimeSeen() {
@@ -104,9 +113,10 @@ public class User {
 
         User user = (User) o;
 
-        return requestId == user.requestId &&
+        return rating == user.rating &&
                 isOnline == user.isOnline &&
                 isAdmin == user.isAdmin &&
+                isCourier == user.isCourier &&
                 login.equals(user.login) &&
                 name.equals(user.name) &&
                 password.equals(user.password) &&
@@ -119,7 +129,7 @@ public class User {
     public int hashCode() {
         int result = 17;
 
-        result += 31 * requestId;
+        result += 31 * Float.hashCode(rating);
         result += 31 * name.hashCode();
         result += 31 * password.hashCode();
         result += 31 * salt.hashCode();
@@ -127,6 +137,7 @@ public class User {
         result += 31 * email.hashCode();
         result += 31 * Boolean.hashCode(isAdmin);
         result += 31 * Boolean.hashCode(isOnline);
+        result += 31 * Boolean.hashCode(isCourier);
         result += 31 * lastTimeSeen.hashCode();
 
         return result;
