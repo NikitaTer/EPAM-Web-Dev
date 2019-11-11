@@ -3,7 +3,6 @@ package by.epam.model.dao;
 import by.epam.entity.User;
 import by.epam.model.ConnectionPool;
 import by.epam.model.builder.UsersBuilder;
-import jdk.nashorn.internal.runtime.regexp.joni.encoding.ObjPtr;
 
 import java.sql.*;
 import java.util.List;
@@ -66,7 +65,7 @@ public class UserDAO implements BasicDAO<String, User> {
     @Override
     public Optional<User> update(User user)  {
         try(Connection connection = ConnectionPool.getInstance().getConnection()) {
-            PreparedStatement statement = connection.prepareStatement(SQLCommands.UPDATE_USER);
+            PreparedStatement statement = connection.prepareStatement(SQLCommands.INSERT_USER);
         } catch (SQLException e) {
             e.printStackTrace();
         }

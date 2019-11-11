@@ -2,3 +2,6 @@
 First Task/out/
 TextTask/out/
 XmlParser/target/
+
+#workspaces
+CouriersExchange/.idea/workspace.xml

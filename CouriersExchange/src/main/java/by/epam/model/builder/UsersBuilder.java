@@ -18,7 +18,6 @@ public class UsersBuilder {
             user.setPassword(set.getString(2));
             user.setSalt(set.getString(3));
             user.setName(set.getString(4));
-            user.setRequestId(set.getInt(5));
             user.setOnline(set.getBoolean(6));
             user.setLastTimeSeen(set.getDate(7));
             user.setAdmin(set.getBoolean(8));

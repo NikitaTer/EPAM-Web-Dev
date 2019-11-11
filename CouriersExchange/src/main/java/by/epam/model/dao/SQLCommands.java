@@ -1,6 +1,7 @@
 package by.epam.model.dao;
 
 public class SQLCommands {
+    public final static String FIND_ALL_USERS = "SELECT * FROM users";
     public final static String FIND_ALL_CLIENTS = "SELECT * FROM users WHERE isCourier=FALSE;";
     public final static String FIND_ALL_ADMINS = "SELECT * FROM users WHERE isAdmins=true;";
     public final static String FIND_ALL_COURIERS = "SELECT * FROM users WHERE isCourier=TRUE;";

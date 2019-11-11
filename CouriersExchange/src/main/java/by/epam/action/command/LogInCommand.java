@@ -11,5 +11,6 @@ public class LogInCommand implements ActionCommand {
     public String execute(HttpServletRequest request) {
         String login = request.getParameter(PARAM_NAME_LOGIN);
         String password = request.getParameter(PARAM_NAME_PASSWORD);
+        return null;
     }
 }
