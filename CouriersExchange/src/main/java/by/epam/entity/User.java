@@ -6,8 +6,8 @@ import java.util.Objects;
 public class User {
     private String login;
     private String name;
-    private String password;
-    private String salt;
+    private byte[] password;
+    private byte[] salt;
     private String email;
 
     private float rating;
@@ -37,19 +37,19 @@ public class User {
         this.name = name;
     }
 
-    public String getPassword() {
+    public byte[] getPassword() {
         return password;
     }
 
-    public void setPassword(String password) {
+    public void setPassword(byte[] password) {
         this.password = password;
     }
 
-    public String getSalt() {
+    public byte[] getSalt() {
         return salt;
     }
 
-    public void setSalt(String salt) {
+    public void setSalt(byte[] salt) {
         this.salt = salt;
     }
 

@@ -3,6 +3,8 @@ package by.epam.model.dao;
 import by.epam.entity.User;
 import by.epam.model.ConnectionPool;
 import by.epam.model.builder.UsersBuilder;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
 import java.util.List;
@@ -10,9 +12,14 @@ import java.util.Optional;
 
 public class UserDAO implements BasicDAO<String, User> {
 
-    private static final UserDAO instance = new UserDAO();
+    private static UserDAO instance = new UserDAO();
+    private static final Logger logger = LogManager.getLogger();
 
-    public UserDAO() {
+    private UserDAO() {
+    }
+
+    public static UserDAO getInstance() {
+        return instance;
     }
 
     @Override
@@ -37,9 +44,10 @@ public class UserDAO implements BasicDAO<String, User> {
             statement.setString(1, login);
             ResultSet set = statement.executeQuery();
             Optional<User> user = Optional.of(UsersBuilder.build(set).get(0));
+            logger.info("User " + user.get().getLogin() + " is found");
             return user;
         } catch (SQLException e) {
-            e.printStackTrace();
+            logger.error(e.getMessage());
         }
 
         return Optional.empty();

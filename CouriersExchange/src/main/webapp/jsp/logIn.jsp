@@ -20,8 +20,9 @@
     <input type="password" name="password" value="">
     <br/>
     <input type="submit" value="LogIn">
+    ${errorMessage}
 </form>
 <hr/>
-<a href="SignUp.jsp">Don't have account? SignUp</a>
+<a href="signUp.jsp">Don't have account? SignUp</a>
 </body>
 </html>

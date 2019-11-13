@@ -15,13 +15,15 @@ public class UsersBuilder {
             User user = new User();
 
             user.setLogin(set.getString(1));
-            user.setPassword(set.getString(2));
-            user.setSalt(set.getString(3));
+            user.setPassword(set.getBytes(2));
+            user.setSalt(set.getBytes(3));
             user.setName(set.getString(4));
+            user.setEmail(set.getString(5));
             user.setOnline(set.getBoolean(6));
-            user.setLastTimeSeen(set.getDate(7));
-            user.setAdmin(set.getBoolean(8));
-            user.setEmail(set.getString(9));
+            user.setAdmin(set.getBoolean(7));
+            user.setCourier(set.getBoolean(8));
+            user.setRating(set.getFloat(9));
+            user.setLastTimeSeen(set.getDate(10));
 
             users.add(user);
         }
