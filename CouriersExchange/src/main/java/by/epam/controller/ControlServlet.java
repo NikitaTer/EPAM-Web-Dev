@@ -53,7 +53,7 @@ public class ControlServlet extends HttpServlet {
                 dispatcher.forward(request, response);
             } else {
                 page = ConfigurationManager.getProperty("path.page.error");
-                request.getSession().setAttribute("errorMessage", MessageManager.getProperty("message.error"));
+                request.getSession().setAttribute("errorMessage", MessageManager.getProperty("message.error.nullPage"));
                 response.sendRedirect(request.getContextPath() + page);
             }
 

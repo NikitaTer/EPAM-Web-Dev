@@ -1,5 +1,6 @@
 package by.epam.model.builder;
 
+import by.epam.action.EncryptionLogic;
 import by.epam.entity.User;
 
 import java.sql.ResultSet;
@@ -29,5 +30,26 @@ public class UsersBuilder {
         }
 
         return users;
+    }
+
+    public static User build(String login, String password, String name, String email, boolean isCourier) {
+        byte[][] pair = EncryptionLogic.encrypt(password);
+
+        if (pair != null) {
+            User user = new User();
+            user.setLogin(login);
+            user.setPassword(pair[0]);
+            user.setSalt(pair[1]);
+            user.setName(name);
+            user.setEmail(email);
+            user.setOnline(true);
+            user.setAdmin(false);
+            user.setCourier(isCourier);
+            user.setRating(-1);
+            return user;
+        } else {
+            return null;
+        }
+
     }
 }

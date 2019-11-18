@@ -11,18 +11,26 @@
     <title>SignUp</title>
 </head>
 <body>
-<form name="signUpForm" method="post" action="controller">
+
+<form id="form-signUp" name="signUpForm" method="post" action="controller">
     <input type="hidden" name="command" value="signUp" />
     Login:<br/>
     <input type="text" name="login" value=""><br/>
     Email:<br/>
     <input type="email" name="email" value=""><br/>
+    Name:<br/>
+    <input type="text" name="name" value=""><br/>
     Password:<br/>
-    <input type="password" name="password" value="">
+    <input type="password" name="password" value=""><br/>
+    Type of user:<br/>
+    <select form="form-signUp" id="select-userType" name="userType" autofocus>
+        <option value="client">Client</option>
+        <option value="courier">Courier</option>
+    </select>
     <br/>
     <input type="submit" value="SignUp">
 </form>
 <hr/>
-<a href="logIn.jsp">Already have account? LogIn</a>
+<a href="/jsp/logIn.jsp">Already have account? LogIn</a>
 </body>
 </html>

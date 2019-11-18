@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import java.sql.*;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -43,9 +44,15 @@ public class UserDAO implements BasicDAO<String, User> {
             PreparedStatement statement = connection.prepareStatement(SQLCommands.FIND_USER);
             statement.setString(1, login);
             ResultSet set = statement.executeQuery();
-            Optional<User> user = Optional.of(UsersBuilder.build(set).get(0));
-            logger.info("User " + user.get().getLogin() + " is found");
-            return user;
+
+            List<User> users = UsersBuilder.build(set);
+            if (!users.isEmpty()) {
+                Optional<User> user = Optional.of(UsersBuilder.build(set).get(0));
+                logger.info("User " + user.get().getLogin() + " is found");
+                return user;
+            } else {
+                return Optional.empty();
+            }
         } catch (SQLException e) {
             logger.error(e.getMessage());
         }
@@ -58,8 +65,8 @@ public class UserDAO implements BasicDAO<String, User> {
         try(Connection connection = ConnectionPool.getInstance().getConnection()) {
             PreparedStatement statement = connection.prepareStatement(SQLCommands.INSERT_USER);
             statement.setString(1, user.getLogin());
-            statement.setString(2, user.getPassword());
-            statement.setString(3, user.getSalt());
+            statement.setBytes(2, user.getPassword());
+            statement.setBytes(3, user.getSalt());
             statement.setString(4, user.getName());
             statement.setString(5, user.getEmail());
             statement.setBoolean(6, user.isCourier());

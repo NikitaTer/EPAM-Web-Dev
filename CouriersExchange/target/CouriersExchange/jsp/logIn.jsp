@@ -10,9 +10,9 @@
 <head>
     <title>Login</title>
 </head>
-<body><h3>Login</h3>
+<body>
 <hr/>
-<form name="loginForm" method="post" action="logIn">
+<form name="loginForm" method="post" action="controller">
     <input type="hidden" name="command" value="logIn" />
     Login:<br/>
     <input type="text" name="login" value=""><br/>
@@ -20,8 +20,10 @@
     <input type="password" name="password" value="">
     <br/>
     <input type="submit" value="LogIn">
+    <br/>
+    ${errorMessage}
 </form>
 <hr/>
-<a href="SignUp.jsp">Don't have account? SignUp</a>
+<a href="/jsp/signUp.jsp">Don't have account? SignUp</a>
 </body>
 </html>
