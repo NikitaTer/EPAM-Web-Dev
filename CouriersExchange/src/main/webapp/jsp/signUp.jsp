@@ -15,22 +15,26 @@
 <form id="form-signUp" name="signUpForm" method="post" action="controller">
     <input type="hidden" name="command" value="signUp" />
     Login:<br/>
-    <input type="text" name="login" value=""><br/>
+    <input type="text" name="login" value=""/><br/>
     Email:<br/>
-    <input type="email" name="email" value=""><br/>
+    <input type="email" name="email" value=""/><br/>
     Name:<br/>
-    <input type="text" name="name" value=""><br/>
+    <input type="text" name="name" value=""/><br/>
     Password:<br/>
-    <input type="password" name="password" value=""><br/>
+    <input type="password" name="password" value=""/><br/>
     Type of user:<br/>
     <select form="form-signUp" id="select-userType" name="userType" autofocus>
         <option value="client">Client</option>
         <option value="courier">Courier</option>
     </select>
-    <br/>
-    <input type="submit" value="SignUp">
+    <br/>${errorMessage}<br/>
+    <input type="submit" value="SignUp"/>
+</form>
+<form name="testForm" method="post" action="controller">
+    <input type="hidden" name="command" value="signUp"/>
+    <input type="submit" name="testButton" value="Click Me"/>
 </form>
 <hr/>
-<a href="/jsp/logIn.jsp">Already have account? LogIn</a>
+<a href="${pageContext.request.contextPath}/jsp/logIn.jsp">Already have account? LogIn</a>
 </body>
 </html>

@@ -49,7 +49,7 @@ public class ControlServlet extends HttpServlet {
         try {
 
             if (page!=null) {
-                RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(page);
+                RequestDispatcher dispatcher = request.getRequestDispatcher(page);
                 dispatcher.forward(request, response);
             } else {
                 page = ConfigurationManager.getProperty("path.page.error");

@@ -24,6 +24,6 @@
     ${errorMessage}
 </form>
 <hr/>
-<a href="/jsp/signUp.jsp">Don't have account? SignUp</a>
+<a href="${pageContext.request.contextPath}/jsp/signUp.jsp">Don't have account? SignUp</a>
 </body>
 </html>
