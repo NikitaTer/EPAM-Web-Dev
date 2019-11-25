@@ -48,10 +48,17 @@
     <fmt:message bundle="${local}" key="main.signUp.password" var="signUp_password"/>
     <fmt:message bundle="${local}" key="main.signUp.enterPassword" var="signUp_enterPassword"/>
     <fmt:message bundle="${local}" key="main.signUp.repeatPassword" var="signUp_repeatPassword"/>
-    <fmt:message bundle="${local}" key="main.signUp.forgotPassword" var="signUp_forgotPassword"/>
     <fmt:message bundle="${local}" key="main.signUp.signInHere" var="signUp_signInHere"/>
+
+    <fmt:message bundle="${local}" key="main.verify.header" var="verify_header"/>
+    <fmt:message bundle="${local}" key="main.verify.enterCode" var="verify_enterCode"/>
+    <fmt:message bundle="${local}" key="main.verify.message" var="verify_message"/>
+    <fmt:message bundle="${local}" key="main.verify.notCome" var="verify_notCome"/>
+    <fmt:message bundle="${local}" key="main.verify.submit" var="verify_submit"/>
 </head>
 <body>
+
+<%-- Navigation Bar --%>
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -60,13 +67,14 @@
 
             <div>
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#signUp">${signUp}</a></li>
+                    <li><a href="#signUp" data-toggle="modal" data-target="#signUp">${signUp}</a></li>
                     <li class="active"><a href="#signIn" data-toggle="modal" data-target="#signIn">${signIn}</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 
+<%-- SignIn form --%>
     <div class="modal fade login" id="signIn" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -93,13 +101,14 @@
                 </div>
 
                 <div class="modal-footer" style="padding: 40px 50px;">
-                    <p><a href="#signUp" data-toggle="modal" data-target="#signUp">${signIn_signUpHere}</a></p>
+                    <p><a href="#signUp" data-toggle="modal" data-target="#signUp" data-dismiss="modal">${signIn_signUpHere}</a></p>
                 </div>
 
             </div>
         </div>
     </div>
 
+<%-- SignUp form --%>
     <div class="modal fade login" id="signUp" role="dialog">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -127,12 +136,43 @@
                         <div class="form-group">
                             <input type="password" name="repeatPassword" id="repeatPassword_signUp" value="" class="form-control" placeholder="${signUp_repeatPassword}" />
                         </div>
-                        <button type="submit" class="btn btn-success btn-block">${signUp_signUp}</button>
+                        <button type="button" class="btn btn-success btn-block">
+                            <a href="#verify" data-toggle="modal" data-target="#verify">${signUp_signUp}</a>
+                        </button>
                     </form>
                 </div>
 
                 <div class="modal-footer" style="padding: 40px 50px;">
-                    <p><a href="#signIn" data-toggle="modal" data-target="#signIn">${signUp_signInHere}</a></p>
+                    <p><a href="#signIn" data-toggle="modal" data-target="#signIn" data-dismiss="modal">${signUp_signInHere}</a></p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <%-- Verify form --%>
+    <div class="modal fade" id="verify" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3>${verify_header}</h3>
+                </div>
+
+                <div class="modal-body">
+                    <form name="form" method="post" action="controller">
+                        <input type="hidden" name="command" value="verify"/>
+                        <div class="form-group">
+                            <label for="verify_verify">${verify_message}</label>
+                            <input type="text" name="verify" id="verify_verify" value="" class="form-control" placeholder="${verify_enterCode}" />
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">${verify_submit}</button>
+                    </form>
+                </div>
+
+                <div class="modal-footer">
+                    <p><a href="#">${verify_notCome}</a></p>
                 </div>
 
             </div>

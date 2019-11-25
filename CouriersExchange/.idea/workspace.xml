@@ -7,30 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a463376-c935-46e1-8684-63c1fba6aef4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/resourceBundles.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/controller/ControlServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/controller/ControlServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/logIn.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/local_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/local_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/local_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/local_ru.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/signUp.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/controller/ControlServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/controller/ControlServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/jsp/logIn.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CouriersExchange/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CouriersExchange.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/logic/LoginLogic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/controller/ControlServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/controller/ControlServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/message.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/src/main/webapp/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/src/main/webapp/jsp/main.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,6 +59,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -214,6 +197,7 @@
       <workItem from="1574343173105" duration="1264000" />
       <workItem from="1574383527491" duration="493000" />
       <workItem from="1574521914980" duration="20784000" />
+      <workItem from="1574712761691" duration="4658000" />
     </task>
     <servers />
   </component>
@@ -234,7 +218,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
