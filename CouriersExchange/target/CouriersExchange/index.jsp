@@ -1,8 +1,6 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <html>
-<head>
-    <title>Index</title>
-</head>
+<head><title>Index</title></head>
 <body>
-<jsp:forward page="/jsp/signUp.jsp"/>
-</body>
-</html>
+<jsp:forward page="/jsp/main.jsp"/>
+</body></html>
