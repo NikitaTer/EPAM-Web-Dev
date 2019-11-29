@@ -1,4 +1,4 @@
-package by.epam.action;
+package by.epam.action.mail;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,7 +10,6 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Properties;
-import java.util.stream.Collectors;
 
 public class SendMail {
 

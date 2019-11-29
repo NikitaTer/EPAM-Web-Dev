@@ -48,6 +48,9 @@
     <fmt:message bundle="${local}" key="main.signUp.password" var="signUp_password"/>
     <fmt:message bundle="${local}" key="main.signUp.enterPassword" var="signUp_enterPassword"/>
     <fmt:message bundle="${local}" key="main.signUp.repeatPassword" var="signUp_repeatPassword"/>
+    <fmt:message bundle="${local}" key="main.signUp.userType.choose" var="signUp_userType_choose"/>
+    <fmt:message bundle="${local}" key="main.signUp.userType.courier" var="signUp_userType_courier"/>
+    <fmt:message bundle="${local}" key="main.signUp.userType.client" var="signUp_userType_client"/>
     <fmt:message bundle="${local}" key="main.signUp.signInHere" var="signUp_signInHere"/>
 
     <fmt:message bundle="${local}" key="main.verify.header" var="verify_header"/>
@@ -136,7 +139,15 @@
                         <div class="form-group">
                             <input type="password" name="repeatPassword" id="repeatPassword_signUp" value="" class="form-control" placeholder="${signUp_repeatPassword}" />
                         </div>
-                        <button type="button" class="btn btn-success btn-block">
+                        <div class="form-group">
+                            <label for="userType_signUp">${signUp_userType_choose}</label>
+                            <br/>
+                            <select name="userType" id="userType_signUp">
+                                <option value="courier">${signUp_userType_courier}</option>
+                                <option value="client">${signUp_userType_client}</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-success btn-block">
                             <a href="#verify" data-toggle="modal" data-target="#verify">${signUp_signUp}</a>
                         </button>
                     </form>

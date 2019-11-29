@@ -14,8 +14,8 @@ public class SQLCommands {
             "ON users.login = requests.courier WHERE requests.id=?";
 
     public final static String INSERT_USER = "INSERT INTO users " +
-            "(login, password, salt, name, email, isCourier) " +
-            "VALUES(?,?,?,?,?,?)";
+            "(login, password, salt, email, isCourier) " +
+            "VALUES(?,?,?,?,?)";
     public final static String INSERT_REQUEST = "INSERT INTO requests " +
             "(client, vehicleType, description, deliveryFrom, deliveryTo) " +
             "VALUES(?,?,?,?,?)";

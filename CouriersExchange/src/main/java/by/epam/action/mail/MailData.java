@@ -1,4 +1,4 @@
-package by.epam.action;
+package by.epam.action.mail;
 
 public class MailData {
     public static final String SERVER_MAIL = "nikitatet100@gmail.com";

@@ -20,7 +20,7 @@ public class SignUpCommand implements ActionCommand {
 
         request.setAttribute("errorMessage", "Test");
         page = ConfigurationManager.getProperty("path.page.signUp");
-        /*String login = request.getParameter(PARAM_NAME_LOGIN);
+        String login = request.getParameter(PARAM_NAME_LOGIN);
         String password = request.getParameter(PARAM_NAME_PASSWORD);
         String name = request.getParameter(PARAM_NAME_NAME);
         String email = request.getParameter(PARAM_NAME_EMAIL);
@@ -35,7 +35,7 @@ public class SignUpCommand implements ActionCommand {
         } else {
             request.setAttribute("errorMessage", MessageManager.getProperty("message.error.signup"));
             page = ConfigurationManager.getProperty("path.page.signUp");
-        }*/
+        }
 
         return page;
     }

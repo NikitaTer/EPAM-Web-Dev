@@ -1,4 +1,4 @@
-package by.epam.action;
+package by.epam.action.mail;
 
 public class CodeGenerator {
 
