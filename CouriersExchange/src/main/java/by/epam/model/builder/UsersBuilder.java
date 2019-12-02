@@ -32,7 +32,7 @@ public class UsersBuilder {
         return users;
     }
 
-    public static User build(String login, String password, String name, String email, boolean isCourier) {
+    public static User build(String login, String password, String email, boolean isCourier) {
         byte[][] pair = EncryptionLogic.encrypt(password);
 
         if (pair != null) {
@@ -40,7 +40,6 @@ public class UsersBuilder {
             user.setLogin(login);
             user.setPassword(pair[0]);
             user.setSalt(pair[1]);
-            user.setName(name);
             user.setEmail(email);
             user.setOnline(true);
             user.setAdmin(false);

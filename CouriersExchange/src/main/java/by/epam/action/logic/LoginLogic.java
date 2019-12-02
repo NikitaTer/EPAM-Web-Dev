@@ -7,12 +7,12 @@ import by.epam.model.dao.UserDAO;
 import java.util.Arrays;
 import java.util.Optional;
 
-public class LoginService {
+public class LoginLogic {
 
     private User user = null;
     private String password;
 
-    public LoginService(String login, String password) {
+    public LoginLogic(String login, String password) {
         Optional<User> user = UserDAO.getInstance().find(login);
         user.ifPresent(value -> this.user = value);
         this.password = password;

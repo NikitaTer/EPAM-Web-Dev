@@ -1,10 +1,10 @@
 package by.epam.action.command;
 
 public enum  CommandEnum {
-    LOGIN {{this.command = new LogInCommand();}},
+    SIGNIN {{this.command = new SignInCommand();}},
     LOGOUT {{this.command = new LogOutCommand();}},
     SIGNUP {{this.command = new SignUpCommand();}},
-    VERIFY {{this.command = new SignUpCommand();}},
+    VERIFY {{this.command = new VerifyCommand();}},
     ADD_REQUEST {{this.command = new AddRequestCommand();}};
 
     ActionCommand command;

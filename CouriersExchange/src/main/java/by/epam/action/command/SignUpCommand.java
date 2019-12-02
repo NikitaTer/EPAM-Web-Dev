@@ -1,8 +1,11 @@
 package by.epam.action.command;
 
 import by.epam.action.logic.SignUpLogic;
+import by.epam.action.mail.CodeGenerator;
+import by.epam.action.mail.SendMail;
 import by.epam.action.manager.ConfigurationManager;
 import by.epam.action.manager.MessageManager;
+import by.epam.model.CodeUserStorage;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -10,7 +13,7 @@ public class SignUpCommand implements ActionCommand {
 
     private final static String PARAM_NAME_LOGIN = "login";
     private final static String PARAM_NAME_PASSWORD = "password";
-    private final static String PARAM_NAME_NAME = "name";
+    private final static String PARAM_NAME_REPEATPASSWORD = "repeatPassword";
     private final static String PARAM_NAME_EMAIL = "email";
     private final static String PARAM_NAME_USERTYPE = "userType";
 
@@ -18,23 +21,28 @@ public class SignUpCommand implements ActionCommand {
     public String execute(HttpServletRequest request) {
         String page = null;
 
-        request.setAttribute("errorMessage", "Test");
-        page = ConfigurationManager.getProperty("path.page.signUp");
+        String email = request.getParameter(PARAM_NAME_EMAIL);
         String login = request.getParameter(PARAM_NAME_LOGIN);
         String password = request.getParameter(PARAM_NAME_PASSWORD);
-        String name = request.getParameter(PARAM_NAME_NAME);
-        String email = request.getParameter(PARAM_NAME_EMAIL);
+        String repeatPassword = request.getParameter(PARAM_NAME_REPEATPASSWORD);
         String userType = request.getParameter(PARAM_NAME_USERTYPE);
 
-        SignUpLogic logic = new SignUpLogic(login, password, name, email, userType.equals("courier"));
+        SignUpLogic logic = new SignUpLogic(login, password, repeatPassword, email, userType.equals("courier"));
 
-        if (!logic.isUserExist()) {
-            logic.addNewUser();
-            request.getSession().setAttribute("user", login);
+        if (!logic.isPasswordCorrect()) {
+            request.setAttribute("passwordMessage", MessageManager.getProperty("message.signUp.passwordMessage"));
+            page = ConfigurationManager.getProperty("path.page.main");
+        } else if (logic.isUserExist()) {
+            request.setAttribute("loginMessage", MessageManager.getProperty("message.signUp.loginMessage"));
             page = ConfigurationManager.getProperty("path.page.main");
         } else {
-            request.setAttribute("errorMessage", MessageManager.getProperty("message.error.signup"));
-            page = ConfigurationManager.getProperty("path.page.signUp");
+            CodeGenerator generator = new CodeGenerator();
+            CodeUserStorage.getInstance().putCodeUser(generator.getCode(), logic.getUser());
+            SendMail.sendSignUpVerify(email,login,generator.getCode());
+            request.getSession().setAttribute("login", login);
+            request.getSession().setAttribute("verified", false);
+            request.setAttribute("action", "forward");
+            page = ConfigurationManager.getProperty("path.page.main");
         }
 
         return page;

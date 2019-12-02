@@ -14,31 +14,40 @@
     <title>Welcome</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <%--<script src="js/JSTest.js" type="text/javascript"></script>--%>
+
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <c:set var="language" value="${sessionScope.lang}"/>
     <fmt:setLocale value="${language}"/>
-    <fmt:setBundle basename=""
 </head>
 <body>
-    <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a href="#" class="navbar-brand">CourierEx</a>
-            </div>
+    <div>
+        <form action="controller" name="form" id="form">
+            <input type="button" value="Submit" id="testButton" class="btn btn-success btn-block" />
+        </form>
+    </div>
 
-            <div>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"></a> </li>
-                </ul>
+    <script>
+        $('#testButton').click(function(){
+            $('#form').submit();
+            $('#verify').modal();
+        });
+    </script>
+
+    <div class="modal fade" id="verify" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <p>lololo</p>
             </div>
         </div>
-    </nav>
+    </div>
 </body>
 </html>

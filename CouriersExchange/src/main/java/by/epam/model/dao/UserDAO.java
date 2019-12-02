@@ -67,9 +67,8 @@ public class UserDAO implements BasicDAO<String, User> {
             statement.setString(1, user.getLogin());
             statement.setBytes(2, user.getPassword());
             statement.setBytes(3, user.getSalt());
-            statement.setString(4, user.getName());
-            statement.setString(5, user.getEmail());
-            statement.setBoolean(6, user.isCourier());
+            statement.setString(4, user.getEmail());
+            statement.setBoolean(5, user.isCourier());
 
             statement.executeUpdate();
         } catch (SQLException e) {

@@ -14,12 +14,15 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link href="<c:url value="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css"/>" rel="stylesheet" id="bootstrap-css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
     <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <%--<script src="js/SignUpButton.js" type="text/javascript"></script>--%>
 
     <c:set var="language" value="${sessionScope.lang}"/>
 
@@ -58,6 +61,7 @@
     <fmt:message bundle="${local}" key="main.verify.message" var="verify_message"/>
     <fmt:message bundle="${local}" key="main.verify.notCome" var="verify_notCome"/>
     <fmt:message bundle="${local}" key="main.verify.submit" var="verify_submit"/>
+
 </head>
 <body>
 
@@ -88,7 +92,7 @@
                 </div>
 
                 <div class="modal-body" style="padding: 40px 50px;">
-                    <form name="form" method="post" action="controller">
+                    <form name="signInForm" method="post" action="controller">
                         <input type="hidden" name="command" value="signIn" />
                         <div class="form-group">
                             <label for="login_signIn">${signIn_login}</label>
@@ -122,7 +126,7 @@
                 </div>
 
                 <div class="modal-body" style="padding: 40px 50px;">
-                    <form name="form" method="post" action="controller">
+                    <form name="signUpForm" id="signUpForm" method="post" action="controller">
                         <input type="hidden" name="command" value="signUp" />
                         <div class="form-group">
                             <label for="email_signUp">${signUp_email}</label>
@@ -131,13 +135,15 @@
                         <div class="form-group">
                             <label for="login_signUp">${signUp_login}</label>
                             <input type="text" name="login" id="login_signUp" value="" class="form-control" placeholder="${signUp_enterLogin}" />
+                            <p>${loginMessage}</p>
                         </div>
                         <div class="form-group">
                             <label for="password_signUp">${signUp_password}</label>
-                            <input type="text" name="password" id="password_signUp" value="" class="form-control" placeholder="${signUp_enterPassword}" />
+                            <input type="password" name="password" id="password_signUp" value="" class="form-control" placeholder="${signUp_enterPassword}" />
                         </div>
                         <div class="form-group">
                             <input type="password" name="repeatPassword" id="repeatPassword_signUp" value="" class="form-control" placeholder="${signUp_repeatPassword}" />
+                            <p>${passwordMessage}</p>
                         </div>
                         <div class="form-group">
                             <label for="userType_signUp">${signUp_userType_choose}</label>
@@ -147,9 +153,7 @@
                                 <option value="client">${signUp_userType_client}</option>
                             </select>
                         </div>
-                        <button type="submit" class="btn btn-success btn-block">
-                            <a href="#verify" data-toggle="modal" data-target="#verify">${signUp_signUp}</a>
-                        </button>
+                        <input type="button" value="${signUp_signUp}" id="signUpButton_signUp" class="btn btn-success btn-block" />
                     </form>
                 </div>
 
@@ -160,6 +164,13 @@
             </div>
         </div>
     </div>
+
+    <script>
+        $('#signUpButton_signUp').click(function(){
+            $('#signUpForm').submit();
+            $('#verify').modal();
+        });
+    </script>
 
     <%-- Verify form --%>
     <div class="modal fade" id="verify" role="dialog">
@@ -172,11 +183,11 @@
                 </div>
 
                 <div class="modal-body">
-                    <form name="form" method="post" action="controller">
+                    <form name="verifyForm" method="post" action="controller">
                         <input type="hidden" name="command" value="verify"/>
                         <div class="form-group">
-                            <label for="verify_verify">${verify_message}</label>
-                            <input type="text" name="verify" id="verify_verify" value="" class="form-control" placeholder="${verify_enterCode}" />
+                            <label for="verify_code">${verify_message}</label>
+                            <input type="text" name="verifyCode" id="verify_code" value="" class="form-control" placeholder="${verify_enterCode}" />
                         </div>
                         <button type="submit" class="btn btn-success btn-block">${verify_submit}</button>
                     </form>

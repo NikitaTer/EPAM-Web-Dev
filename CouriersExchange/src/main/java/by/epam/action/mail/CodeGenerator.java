@@ -1,5 +1,7 @@
 package by.epam.action.mail;
 
+import by.epam.model.CodeUserStorage;
+
 public class CodeGenerator {
 
     private String code;
@@ -8,6 +10,16 @@ public class CodeGenerator {
     private final static int MIN = 65;
 
     public CodeGenerator() {
+        do {
+            code = generateCode();
+        } while (CodeUserStorage.getInstance().isCodeExist(code));
+    }
+
+    public String getCode() {
+        return code;
+    }
+
+    private String generateCode() {
         char[] chars = new char[6];
 
         chars[0] = (char) ((int)(Math.random() * (MAX - MIN + 1)) + MIN);
@@ -17,10 +29,6 @@ public class CodeGenerator {
         chars[4] = (char) ((int)(Math.random() * (MAX - MIN + 1)) + MIN);
         chars[5] = (char) ((int)(Math.random() * (MAX - MIN + 1)) + MIN);
 
-        code = String.valueOf(chars);
-    }
-
-    public String getCode() {
-        return code;
+        return String.valueOf(chars);
     }
 }
