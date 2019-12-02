@@ -5,3 +5,5 @@ XmlParser/target/
 
 #workspaces
 CouriersExchange/.idea/workspace.xml
+.idea/**/workspace.xml
+CouriersExchange/.idea/**/workspace.xml
