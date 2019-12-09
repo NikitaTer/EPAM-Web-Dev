@@ -1,4 +1,4 @@
 $('#signUpButton_signUp').click(function(){
     $('#signUpForm').submit();
-    $('#verify').modal();
+    window.open('verify.jsp');
 });

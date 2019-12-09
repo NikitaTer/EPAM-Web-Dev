@@ -7,65 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a463376-c935-46e1-8684-63c1fba6aef4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/nikit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/nikit.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/command/CommandEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/command/CommandEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/command/LogInCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/command/SignInCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/command/SignUpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/command/SignUpCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/command/VerifyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/command/VerifyCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/logic/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/logic/LoginLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/logic/SignUpLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/logic/SignUpLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/mail/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/mail/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/action/manager/MessageManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/action/manager/MessageManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/controller/ControlServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/controller/ControlServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/model/builder/UsersBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/model/builder/UsersBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/by/epam/model/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/by/epam/model/dao/UserDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/local_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/local_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/local_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties/local_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/js/SignUpButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/SignUpButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/META-INF/CouriersExchange.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/META-INF/CouriersExchange.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/CommandEnum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/CommandEnum$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/CommandEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/LogInCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/SignUpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/SignUpCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/VerifyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/command/VerifyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/logic/LoginLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/logic/LoginLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/logic/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/logic/SignUpLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/logic/SignUpLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/mail/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/mail/CodeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/manager/MessageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/action/manager/MessageManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/model/builder/UsersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/model/builder/UsersBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/model/dao/SQLCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/model/dao/SQLCommands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/model/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/by/epam/model/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/properties/local_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/properties/local_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/properties/local_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/WEB-INF/classes/properties/local_ru.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/CouriersExchange/js/SignUpButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/js/SignUpButton.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CouriersExchange/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/CouriersExchange/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/CouriersExchange.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/CouriersExchange.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/command/CommandEnum$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/command/CommandEnum$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/command/CommandEnum$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/command/CommandEnum$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/command/CommandEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/command/CommandEnum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/command/LogInCommand.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/command/SignUpCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/command/SignUpCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/command/VerifyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/command/VerifyCommand.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/logic/LoginService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/logic/SignUpLogic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/logic/SignUpLogic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/mail/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/mail/CodeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/action/manager/MessageManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/action/manager/MessageManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/model/builder/UsersBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/model/builder/UsersBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/model/dao/SQLCommands.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/model/dao/SQLCommands.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/by/epam/model/dao/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/by/epam/model/dao/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/local_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/local_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/properties/local_ru.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/properties/local_ru.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/src/main/webapp/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/src/main/webapp/jsp/main.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/target/TestWeb/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/target/TestWeb/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/target/TestWeb/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/target/TestWeb/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestWeb/target/TestWeb/jsp/main.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../TestWeb/target/TestWeb/jsp/main.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,9 +29,9 @@
       <list>
         <option value="AnnotationType" />
         <option value="Singleton" />
-        <option value="Jsp File" />
         <option value="Class" />
         <option value="JavaScript File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -176,6 +124,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="verify.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/jsp/verify.jsp">
+      <method v="2" />
+    </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
       <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -249,13 +200,56 @@
         </option>
       </method>
     </configuration>
+    <configuration name="verify.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.47" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/jsp/verify.jsp" />
+      <deployment>
+        <artifact name="CouriersExchange:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/CouriersExchange_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="verify_jsp_CouriersExchange" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CouriersExchange:war" />
+        </option>
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.EncryptionLogic" />
       <item itemvalue="Application.CodeGenerator" />
       <item itemvalue="Tomcat Server.Tomcat" />
+      <item itemvalue="JavaScript Debug.verify.jsp" />
+      <item itemvalue="Tomcat Server.verify.jsp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.verify.jsp" />
+        <item itemvalue="JavaScript Debug.verify.jsp" />
         <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Application.EncryptionLogic" />
       </list>
@@ -290,6 +284,9 @@
       <workItem from="1575133773079" duration="4459000" />
       <workItem from="1575140664861" duration="2356000" />
       <workItem from="1575147999999" duration="5862000" />
+      <workItem from="1575805025131" duration="4732000" />
+      <workItem from="1575876044752" duration="1086000" />
+      <workItem from="1575877153451" duration="4456000" />
     </task>
     <servers />
   </component>

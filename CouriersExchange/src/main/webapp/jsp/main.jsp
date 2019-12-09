@@ -63,7 +63,7 @@
     <fmt:message bundle="${local}" key="main.verify.submit" var="verify_submit"/>
 
 </head>
-<body>
+<body style="background-image: url('https://cdn.wallpapersafari.com/0/41/8hPboS.jpg');">
 
 <%-- Navigation Bar --%>
     <nav class="navbar navbar-default">
@@ -153,7 +153,7 @@
                                 <option value="client">${signUp_userType_client}</option>
                             </select>
                         </div>
-                        <input type="button" value="${signUp_signUp}" id="signUpButton_signUp" class="btn btn-success btn-block" />
+                        <input type="submit" value="${signUp_signUp}" id="signUpButton_signUp" class="btn btn-success btn-block" />
                     </form>
                 </div>
 
@@ -165,40 +165,5 @@
         </div>
     </div>
 
-    <script>
-        $('#signUpButton_signUp').click(function(){
-            $('#signUpForm').submit();
-            $('#verify').modal();
-        });
-    </script>
-
-    <%-- Verify form --%>
-    <div class="modal fade" id="verify" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3>${verify_header}</h3>
-                </div>
-
-                <div class="modal-body">
-                    <form name="verifyForm" method="post" action="controller">
-                        <input type="hidden" name="command" value="verify"/>
-                        <div class="form-group">
-                            <label for="verify_code">${verify_message}</label>
-                            <input type="text" name="verifyCode" id="verify_code" value="" class="form-control" placeholder="${verify_enterCode}" />
-                        </div>
-                        <button type="submit" class="btn btn-success btn-block">${verify_submit}</button>
-                    </form>
-                </div>
-
-                <div class="modal-footer">
-                    <p><a href="#">${verify_notCome}</a></p>
-                </div>
-
-            </div>
-        </div>
-    </div>
 </body>
 </html>

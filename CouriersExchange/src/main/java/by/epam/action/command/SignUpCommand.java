@@ -42,7 +42,7 @@ public class SignUpCommand implements ActionCommand {
             request.getSession().setAttribute("login", login);
             request.getSession().setAttribute("verified", false);
             request.setAttribute("action", "forward");
-            page = ConfigurationManager.getProperty("path.page.main");
+            page = ConfigurationManager.getProperty("path.page.verify");
         }
 
         return page;
